@@ -1,0 +1,9 @@
+# Dependências Python do projeto (versões mínimas testadas).
+# Instalar:  pip install -r requirements.txt
+#
+# Programas externos (não instalados pelo pip): PostgreSQL, Graphviz (diagramas)
+# e Microsoft Edge ou Google Chrome (geração dos PDFs). Veja o README.
+
+markdown>=3.11      # converte o Markdown dos documentos em HTML (gerar_pdf.py)
+pymupdf>=1.28       # lê o PDF gerado para montar o sumário com número de página
+matplotlib>=3.11    # gráficos do DW (gerar_graficos.py)

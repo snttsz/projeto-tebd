@@ -12,7 +12,7 @@
 ## Como configurar (uma vez)
 
 1. Copie `.env.example` (na raiz) para `.env` e ajuste porta, usuário e senha do **seu** PostgreSQL.
-2. Instale as dependências do Python: `pip install markdown pymupdf matplotlib`.
+2. Instale as dependências do Python: `pip install -r requirements.txt` (na raiz do projeto).
 3. Para gerar diagramas e PDFs, precisa também de Graphviz e de um navegador Edge ou Chrome (detectados automaticamente).
 
 ## Como popular o banco

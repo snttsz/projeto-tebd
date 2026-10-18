@@ -28,9 +28,19 @@ Projeto da disciplina **Tópicos Especiais em Banco de Dados** (ODS 11): gestão
 
 ```bash
 cp .env.example .env                              # ajuste porta, usuário e senha do seu PostgreSQL
-pip install markdown pymupdf matplotlib           # dependências do Python
+pip install -r requirements.txt                   # dependências do Python
 python src/scripts/popular_banco.py --recriar     # cria o banco, executa os scripts e confere
 ```
+
+## Programas necessários
+
+| Programa | Para quê | Obrigatório? |
+|---|---|---|
+| **PostgreSQL** 15 ou mais novo | O banco do projeto | Sim |
+| **Python** 3 (testado com a versão 3.14), com `pip install -r requirements.txt` | Scripts de `src/` | Sim |
+| **Graphviz** | Gerar os diagramas | Só para regenerar os diagramas |
+| **Microsoft Edge ou Google Chrome** | Gerar os PDFs | Só para regenerar os PDFs |
+| **pgAdmin 4** | Visualizar o banco e o ERD | Opcional (vem com o instalador do PostgreSQL) |
 
 ## Documentos principais
 

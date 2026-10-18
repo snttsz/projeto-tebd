@@ -1,9 +1,3 @@
--- =====================================================================
--- Dicionário de dados embutido no catálogo do PostgreSQL (COMMENT ON)
--- Executar APÓS 01_construcao_oltp_olap.sql
--- Consulta: SELECT * FROM information_schema.columns + col_description()
--- =====================================================================
-
 DO $$
 DECLARE r RECORD;
 BEGIN
