@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="580.839062pt" height="164.993965pt" viewBox="0 0 580.839062 164.993965" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-18T11:55:54.827196</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 164.993965 
+L 580.839062 164.993965 
+L 580.839062 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 154.396406 132.352344 
+L 556.156406 132.352344 
+L 556.156406 21.472344 
+L 154.396406 21.472344 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 154.396406 132.352344 
+L 154.396406 21.472344 
+" clip-path="url(#p25d9cf3805)" style="fill: none; stroke: #dde4e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #5c6f73" x="154.396406" y="143.132617" transform="rotate(-0 154.396406 143.132617)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 238.582229 132.352344 
+L 238.582229 21.472344 
+" clip-path="url(#p25d9cf3805)" style="fill: none; stroke: #dde4e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #5c6f73" x="238.582229" y="143.132617" transform="rotate(-0 238.582229 143.132617)">100</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 322.768051 132.352344 
+L 322.768051 21.472344 
+" clip-path="url(#p25d9cf3805)" style="fill: none; stroke: #dde4e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #5c6f73" x="322.768051" y="143.132617" transform="rotate(-0 322.768051 143.132617)">200</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 406.953873 132.352344 
+L 406.953873 21.472344 
+" clip-path="url(#p25d9cf3805)" style="fill: none; stroke: #dde4e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #5c6f73" x="406.953873" y="143.132617" transform="rotate(-0 406.953873 143.132617)">300</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 491.139696 132.352344 
+L 491.139696 21.472344 
+" clip-path="url(#p25d9cf3805)" style="fill: none; stroke: #dde4e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #5c6f73" x="491.139696" y="143.132617" transform="rotate(-0 491.139696 143.132617)">400</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: middle; fill: #5c6f73" x="355.276406" y="155.899922" transform="rotate(-0 355.276406 155.899922)">toneladas no ano</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 9.5px; font-family: 'Segoe UI'; text-anchor: end; fill: #12343b" x="150.896406" y="119.95824" transform="rotate(-0 150.896406 119.95824)">Cooperativa Recicla Mais</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_8">
+      <text style="font-size: 9.5px; font-family: 'Segoe UI'; text-anchor: end; fill: #12343b" x="150.896406" y="80.428828" transform="rotate(-0 150.896406 80.428828)">Usina de Compostagem Terra Viva</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13"/>
+     <g id="text_9">
+      <text style="font-size: 9.5px; font-family: 'Segoe UI'; text-anchor: end; fill: #12343b" x="150.896406" y="40.96844" transform="rotate(-0 150.896406 40.96844)">Aterro Sanitário Municipal</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 154.396406 132.352344 
+L 556.156406 132.352344 
+" style="fill: none; stroke: #dde4e5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 154.396406 127.312344 
+L 321.673635 127.312344 
+L 321.673635 105.571167 
+L 154.396406 105.571167 
+z
+" clip-path="url(#p25d9cf3805)" style="fill: #e6a817"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 154.396406 87.782932 
+L 452.919332 87.782932 
+L 452.919332 66.041756 
+L 154.396406 66.041756 
+z
+" clip-path="url(#p25d9cf3805)" style="fill: #12343b"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 154.396406 48.25352 
+L 463.44256 48.25352 
+L 463.44256 26.512344 
+L 154.396406 26.512344 
+z
+" clip-path="url(#p25d9cf3805)" style="fill: #12343b"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #12343b" x="325.041068" y="118.770857" transform="rotate(-0 325.041068 118.770857)">199 t  (22%)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #12343b" x="456.286765" y="79.241445" transform="rotate(-0 456.286765 79.241445)">355 t  (39%)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #12343b" x="466.809993" y="39.712034" transform="rotate(-0 466.809993 39.712034)">367 t  (40%)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Segoe UI'; text-anchor: start; fill: #12343b" x="154.396406" y="15.472344" transform="rotate(-0 154.396406 15.472344)">Destinação final do que foi coletado (destaque: material que vai para reciclagem)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p25d9cf3805">
+   <rect x="154.396406" y="21.472344" width="401.76" height="110.88"/>
+  </clipPath>
+ </defs>
+</svg>

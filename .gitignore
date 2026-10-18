@@ -1,0 +1,32 @@
+# ---- Segredos e configuração local (nunca versionar) ----------------------------------------
+.env
+.env.*
+!.env.example
+
+# ---- Python -----------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Arquivos temporários e logs --------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+*~
+
+# ---- Editores e sistema operacional -----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- pgAdmin (arquivos locais, se gerados dentro do projeto) ----------------------------------
+pgadmin4.db
+*.pgpass

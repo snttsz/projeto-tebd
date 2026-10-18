@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Cidade-Modelo (resíduos)",
+      "Group": "Servers",
+      "Host": "localhost",
+      "Port": 5433,
+      "MaintenanceDB": "cidades_sustentaveis",
+      "Username": "postgres",
+      "SSLMode": "prefer",
+      "Comment": "Banco do projeto Ciclo Urbano (schemas oltp, dw e bi). A senha não vai no arquivo."
+    }
+  }
+}

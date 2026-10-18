@@ -1,0 +1,25 @@
+digraph G { rankdir=LR; nodesep=0.5; ranksep=0.7; splines=ortho;
+graph [fontname="Segoe UI", bgcolor="#FFFFFF", pad=0.4, labelloc=t, labeljust=l, fontsize=15, fontcolor="#12343B"];
+node [shape=plaintext, fontname="Segoe UI"];
+edge [fontname="Segoe UI"];
+label=<<FONT POINT-SIZE="16"><B>Arquitetura do ecossistema de dados</B></FONT><BR ALIGN="LEFT"/><FONT POINT-SIZE="10" COLOR="#4A5B5F">Mesmo SGBD (PostgreSQL), dois ambientes lógicos: operação (oltp) e análise (dw)</FONT><BR ALIGN="LEFT"/>>;
+node [shape=box, style="rounded,filled", fontsize=11, margin="0.18,0.1", penwidth=1.6, fontcolor="#12343B"];
+edge [color="#12343B", penwidth=1.4, arrowsize=0.9];
+subgraph cluster_fontes { label=<<FONT POINT-SIZE="10" COLOR="#4A5B5F"><B>QUEM ALIMENTA</B></FONT>>; style="rounded"; color="#C9D3D6";
+  op [label=<<B>Equipe operacional</B><BR/><FONT POINT-SIZE="9">motoristas · coletores · fiscais</FONT>>, fillcolor="#FFFFFF", color="#2F7D4F"];
+  ci [label=<<B>Cidadão</B><BR/><FONT POINT-SIZE="9">app · telefone · presencial</FONT>>, fillcolor="#FFFFFF", color="#B45309"];
+  pe [label=<<B>Pesagem</B><BR/><FONT POINT-SIZE="9">balança no destino</FONT>>, fillcolor="#FFFFFF", color="#2B6CB0"];
+}
+oltp [label=<<B>OLTP</B> · schema oltp<BR/><FONT POINT-SIZE="9">12 tabelas · 3FN<BR/>registro diário</FONT>>, fillcolor="#2F7D4F1A", color="#2F7D4F"];
+etl [label=<<B>ETL em SQL</B><BR/><FONT POINT-SIZE="9">dimensões → fatos<BR/>chaves substitutas</FONT>>, shape=box, fillcolor="#FFF7E0", color="#B45309"];
+dw [label=<<B>OLAP</B> · schema dw<BR/><FONT POINT-SIZE="9">8 dimensões · 4 fatos<BR/>esquema estrela</FONT>>, fillcolor="#2B6CB01A", color="#2B6CB0"];
+subgraph cluster_uso { label=<<FONT POINT-SIZE="10" COLOR="#4A5B5F"><B>QUEM CONSOME (entrega de 06/11)</B></FONT>>; style="rounded"; color="#C9D3D6";
+  d1 [label=<<B>Dashboard operacional</B><BR/><FONT POINT-SIZE="9">dia a dia · supervisores</FONT>>, fillcolor="#FFFFFF", color="#12343B"];
+  d2 [label=<<B>Dashboard tático</B><BR/><FONT POINT-SIZE="9">rotas e turnos · coordenação</FONT>>, fillcolor="#FFFFFF", color="#12343B"];
+  d3 [label=<<B>Dashboard estratégico</B><BR/><FONT POINT-SIZE="9">metas e expansão · secretaria</FONT>>, fillcolor="#FFFFFF", color="#12343B"];
+  mi [label=<<B>Mineração de dados</B><BR/><FONT POINT-SIZE="9">análise exploratória</FONT>>, fillcolor="#FFFFFF", color="#12343B"];
+}
+op -> oltp; ci -> oltp; pe -> oltp; oltp -> etl -> dw; dw -> d1; dw -> d2; dw -> d3; dw -> mi;
+d3 -> pl [style=dashed];
+pl [label=<<B>Plano de ação 5W2H</B><BR/><FONT POINT-SIZE="9">decisões</FONT>>, fillcolor="#FFFFFF", color="#B45309", shape=box];
+}

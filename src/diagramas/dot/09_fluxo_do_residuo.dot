@@ -1,0 +1,25 @@
+digraph G { rankdir=TB; nodesep=0.7; ranksep=0.75; splines=ortho; newrank=true;
+graph [fontname="Segoe UI", bgcolor="#FFFFFF", pad=0.4, labelloc=t, labeljust=l, fontsize=15, fontcolor="#12343B"];
+node [shape=plaintext, fontname="Segoe UI"];
+edge [fontname="Segoe UI"];
+label=<<FONT POINT-SIZE="16"><B>Fluxo do resíduo e dos dados</B></FONT><BR ALIGN="LEFT"/><FONT POINT-SIZE="10" COLOR="#4A5B5F">Do ponto de coleta ao destino final; cada etapa vira registro no banco (tabela entre parênteses)</FONT><BR ALIGN="LEFT"/>>;
+node [shape=box, style="rounded,filled", fillcolor="#FFFFFF", fontsize=12, penwidth=1.8, margin="0.2,0.12", fontcolor="#12343B", width=2.5];
+edge [color="#12343B", penwidth=1.5, arrowsize=0.9, fontsize=10, fontcolor="#3A4C50"];
+g [label=<<B>1 · Geração</B><BR/><FONT POINT-SIZE="10">moradores, comércio, PEV<BR/>(ponto_coleta)</FONT>>, color="#B45309"];
+p [label=<<B>2 · Planejamento</B><BR/><FONT POINT-SIZE="10">rota semanal por bairro<BR/>(rota)</FONT>>, color="#2F7D4F"];
+c [label=<<B>3 · Coleta</B><BR/><FONT POINT-SIZE="10">veículo + motorista + equipe<BR/>(coleta, coleta_equipe)</FONT>>, color="#2F7D4F"];
+w [label=<<B>4 · Pesagem por ponto</B><BR/><FONT POINT-SIZE="10">peso_kg por tipo de resíduo<BR/>(coleta_item)</FONT>>, color="#2B6CB0"];
+d [label=<<B>5 · Descarga</B><BR/><FONT POINT-SIZE="10">destino conforme o tipo<BR/>(descarga)</FONT>>, color="#2B6CB0"];
+f1 [label=<<B>Aterro</B><BR/><FONT POINT-SIZE="10">rejeito</FONT>>, fillcolor="#F1F5F5", color="#12343B", width=1.8];
+f2 [label=<<B>Cooperativa</B><BR/><FONT POINT-SIZE="10">recicláveis</FONT>>, fillcolor="#F1F5F5", color="#12343B", width=1.8];
+f3 [label=<<B>Usina de compostagem</B><BR/><FONT POINT-SIZE="10">orgânico</FONT>>, fillcolor="#F1F5F5", color="#12343B", width=1.8];
+o [label=<<B>Ocorrência do cidadão</B><BR/><FONT POINT-SIZE="10">reclamação / solicitação<BR/>(ocorrencia)</FONT>>, color="#B45309", style="rounded,filled,dashed"];
+r [label=<<B>Resolução</B><BR/><FONT POINT-SIZE="10">tempo_resolucao_horas</FONT>>, color="#B45309", style="rounded,filled,dashed"];
+{rank=same; g; p; c;}
+{rank=same; w; d;}
+{rank=same; f1; f2; f3;}
+{rank=same; o; r;}
+g -> p [label=" define "]; p -> c [label=" executa "];
+c -> w; w -> d; d -> f1; d -> f2; d -> f3;
+g -> o [style=dashed, label=" se a coleta falhar "]; o -> r [style=dashed]; r -> p [style=dashed, label=" ajusta a rota "];
+}
