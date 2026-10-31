@@ -8,7 +8,7 @@
 | **Entrega** | Parcial (feedback) · 19/10/2026 · itens 1 a 5 do barema |
 | **Entrega final** | 06/11/2026 · itens 6 a 10 + apresentação |
 | **SGBD** | PostgreSQL 17 (scripts compatíveis com 15+) |
-| **Equipe** | _[preencher os nomes dos integrantes]_ |
+| **Equipe** | Carlos Erick · Carlos José · Glenda Santana · Kalvin Albuquerque |
 
 <!-- KICKER: GUIA COMPLETO DE IMPLEMENTAÇÃO · USO INTERNO DA EQUIPE -->
 <!-- ROTULO: Guia completo · uso interno -->
@@ -129,10 +129,10 @@ O enunciado indica, como método de trabalho em grupo, o artigo de Linge e Parso
 
 | Integrante | Papel na etapa 1 (itens 1 a 5) | Papel na etapa 2 (itens 6 a 10) |
 |---|---|---|
-| _[nome]_ | _[ex.: requisitos e contextualização]_ | _[ex.: análise exploratória]_ |
-| _[nome]_ | _[ex.: modelagem OLTP e script]_ | _[ex.: dashboard operacional]_ |
-| _[nome]_ | _[ex.: modelagem OLAP e ETL]_ | _[ex.: dashboards tático e estratégico]_ |
-| _[nome]_ | _[ex.: dicionário e documentação]_ | _[ex.: plano 5W2H e apresentação]_ |
+| Carlos Erick | _[ex.: requisitos e contextualização]_ | _[ex.: análise exploratória]_ |
+| Carlos José | _[ex.: modelagem OLTP e script]_ | _[ex.: dashboard operacional]_ |
+| Glenda Santana | _[ex.: modelagem OLAP e ETL]_ | _[ex.: dashboards tático e estratégico]_ |
+| Kalvin Albuquerque | _[ex.: dicionário e documentação]_ | _[ex.: plano 5W2H e apresentação]_ |
 
 #### Perguntas ao cliente (professor), a esclarecer
 
@@ -1074,7 +1074,7 @@ GROUP BY r.nome ORDER BY kg_por_km;
 | Item | Situação | Ação recomendada |
 |---|---|---|
 | **R1 — Dados uniformes** | **Resolvido em 18/10/2026.** Antes: taxa de recicláveis entre 26% e 31% em todos os bairros; ocorrências por tipo: 120 de cada. Agora há padrões (tabela abaixo). | Conferir os padrões antes de usá-los (prompt P3). |
-| Nomes da equipe | Placeholder na capa e na seção 1.6. | Preencher. |
+| Papéis de cada integrante | Nomes já na capa; os papéis na seção 1.6 ainda são exemplos. | Definir com a equipe. |
 | Números de contexto (cap. 1) | Vêm de estudos achados por busca; alguns sem a fonte original localizada. | Conferir os originais antes de citar formalmente. |
 | Indicador 11.6.1 (Brasil) | Valor oficial **não** confirmado. | Não citar número; ver `odsbrasil.gov.br`. |
 | Dependência de ferramentas | PDFs usam Graphviz e Edge. | Não são exigidos pela disciplina. |

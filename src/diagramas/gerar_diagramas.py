@@ -335,7 +335,7 @@ subgraph cluster_uso {{ label=<<FONT POINT-SIZE="10" COLOR="#4A5B5F"><B>QUEM CON
   d1 [label=<<B>Dashboard operacional</B><BR/><FONT POINT-SIZE="9">dia a dia · supervisores</FONT>>, fillcolor="#FFFFFF", color="{INK}"];
   d2 [label=<<B>Dashboard tático</B><BR/><FONT POINT-SIZE="9">rotas e turnos · coordenação</FONT>>, fillcolor="#FFFFFF", color="{INK}"];
   d3 [label=<<B>Dashboard estratégico</B><BR/><FONT POINT-SIZE="9">metas e expansão · secretaria</FONT>>, fillcolor="#FFFFFF", color="{INK}"];
-  mi [label=<<B>Mineração de dados</B><BR/><FONT POINT-SIZE="9">análise exploratória</FONT>>, fillcolor="#FFFFFF", color="{INK}"];
+  mi [label=<<B>Mineração de dados</B><BR/><FONT POINT-SIZE="9">problema + método · item 6</FONT>>, fillcolor="#FFFFFF", color="{INK}"];
 }}
 op -> oltp; ci -> oltp; pe -> oltp; oltp -> etl -> dw; dw -> d1; dw -> d2; dw -> d3; dw -> mi;
 d3 -> pl [style=dashed];

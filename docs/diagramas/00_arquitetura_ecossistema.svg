@@ -140,15 +140,15 @@
 <!-- mi -->
 <g id="node10" class="node">
 <title>mi</title>
-<path fill="#ffffff" stroke="#12343b" stroke-width="1.6" d="M834.27,-268C834.27,-268 728.1,-268 728.1,-268 722.1,-268 716.1,-262 716.1,-256 716.1,-256 716.1,-244 716.1,-244 716.1,-238 722.1,-232 728.1,-232 728.1,-232 834.27,-232 834.27,-232 840.27,-232 846.27,-238 846.27,-244 846.27,-244 846.27,-256 846.27,-256 846.27,-262 840.27,-268 834.27,-268"/>
+<path fill="#ffffff" stroke="#12343b" stroke-width="1.6" d="M836.89,-268C836.89,-268 725.47,-268 725.47,-268 719.47,-268 713.47,-262 713.47,-256 713.47,-256 713.47,-244 713.47,-244 713.47,-238 719.47,-232 725.47,-232 725.47,-232 836.89,-232 836.89,-232 842.89,-232 848.89,-238 848.89,-244 848.89,-244 848.89,-256 848.89,-256 848.89,-262 842.89,-268 836.89,-268"/>
 <text xml:space="preserve" text-anchor="start" x="729.06" y="-250.55" font-family="Segoe UI" font-weight="bold" font-size="11.00" fill="#12343b">Mineração de dados</text>
-<text xml:space="preserve" text-anchor="start" x="742.93" y="-241.45" font-family="Segoe UI" font-size="9.00" fill="#12343b">análise exploratória</text>
+<text xml:space="preserve" text-anchor="start" x="726.43" y="-241.45" font-family="Segoe UI" font-size="9.00" fill="#12343b">problema + método · item 6</text>
 </g>
 <!-- dw&#45;&gt;mi -->
 <g id="edge9" class="edge">
 <title>dw&#45;&gt;mi</title>
-<path fill="none" stroke="#12343b" stroke-width="1.4" d="M566.1,-128.5C566.1,-169 566.1,-250 566.1,-250 566.1,-250 704.36,-250 704.36,-250"/>
-<polygon fill="#12343b" stroke="#12343b" stroke-width="1.4" points="704.36,-253.15 713.36,-250 704.36,-246.85 704.36,-253.15"/>
+<path fill="none" stroke="#12343b" stroke-width="1.4" d="M566.1,-128.5C566.1,-169 566.1,-250 566.1,-250 566.1,-250 701.71,-250 701.71,-250"/>
+<polygon fill="#12343b" stroke="#12343b" stroke-width="1.4" points="701.71,-253.15 710.71,-250 701.71,-246.85 701.71,-253.15"/>
 </g>
 <!-- pl -->
 <g id="node11" class="node">

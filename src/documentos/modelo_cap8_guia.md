@@ -133,7 +133,7 @@ GROUP BY r.nome ORDER BY kg_por_km;
 | Item | Situação | Ação recomendada |
 |---|---|---|
 | **R1 — Dados uniformes** | **Resolvido em 18/10/2026.** Antes: taxa de recicláveis entre 26% e 31% em todos os bairros; ocorrências por tipo: 120 de cada. Agora há padrões (tabela abaixo). | Conferir os padrões antes de usá-los (prompt P3). |
-| Nomes da equipe | Placeholder na capa e na seção 1.6. | Preencher. |
+| Papéis de cada integrante | Nomes já na capa; os papéis na seção 1.6 ainda são exemplos. | Definir com a equipe. |
 | Números de contexto (cap. 1) | Vêm de estudos achados por busca; alguns sem a fonte original localizada. | Conferir os originais antes de citar formalmente. |
 | Indicador 11.6.1 (Brasil) | Valor oficial **não** confirmado. | Não citar número; ver `odsbrasil.gov.br`. |
 | Dependência de ferramentas | PDFs usam Graphviz e Edge. | Não são exigidos pela disciplina. |
