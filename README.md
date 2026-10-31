@@ -61,3 +61,11 @@ python src/documentos/montar_entregas.py   # gera os 3 documentos (PDF e Markdow
 ```
 
 O texto de todos os documentos mora em `src/documentos/modelo_entrega.md`. **Edite o modelo, não os arquivos gerados.**
+
+## Mineração exploratória — item 6
+
+A implementação K-means está em [`src/mineracao/`](src/mineracao/README.md).
+Lê o DW em modo somente leitura ou um CSV exportado da outra máquina e gera relatório,
+gráficos e diagnósticos. Veja o README da mineração para instalação e execução.
+Execução com os dados sintéticos do banco em 31/10/2026:
+[relatório e gráficos](docs/analises/kmeans/kmeans_2025_20261031T122945_177876Z/relatorio.md).
