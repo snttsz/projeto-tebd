@@ -8,7 +8,7 @@
 | **Entrega** | Parcial (feedback) · 19/10/2026 · itens 1 a 5 do barema |
 | **Entrega final** | 06/11/2026 · itens 6 a 10 + apresentação |
 | **SGBD** | PostgreSQL 17 (scripts compatíveis com 15+) |
-| **Equipe** | _[preencher os nomes dos integrantes]_ |
+| **Equipe** | Carlos Erick · Carlos José · Glenda Santana · Kalvin Albuquerque |
 
 <!-- KICKER: TÓPICOS ESPECIAIS EM BANCO DE DADOS · ENTREGA PARCIAL -->
 <!-- ROTULO: Entrega parcial · 19/10/2026 -->

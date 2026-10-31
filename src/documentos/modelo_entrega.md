@@ -8,7 +8,7 @@
 | **Entrega** | Parcial (feedback) · 19/10/2026 · itens 1 a 5 do barema |
 | **Entrega final** | 06/11/2026 · itens 6 a 10 + apresentação |
 | **SGBD** | PostgreSQL 17 (scripts compatíveis com 15+) |
-| **Equipe** | _[preencher os nomes dos integrantes]_ |
+| **Equipe** | Carlos Erick · Carlos José · Glenda Santana · Kalvin Albuquerque |
 
 <!--PROF-->
 <!-- KICKER: TÓPICOS ESPECIAIS EM BANCO DE DADOS · ENTREGA PARCIAL -->
@@ -156,10 +156,10 @@ O enunciado indica, como método de trabalho em grupo, o artigo de Linge e Parso
 
 | Integrante | Papel na etapa 1 (itens 1 a 5) | Papel na etapa 2 (itens 6 a 10) |
 |---|---|---|
-| _[nome]_ | _[ex.: requisitos e contextualização]_ | _[ex.: análise exploratória]_ |
-| _[nome]_ | _[ex.: modelagem OLTP e script]_ | _[ex.: dashboard operacional]_ |
-| _[nome]_ | _[ex.: modelagem OLAP e ETL]_ | _[ex.: dashboards tático e estratégico]_ |
-| _[nome]_ | _[ex.: dicionário e documentação]_ | _[ex.: plano 5W2H e apresentação]_ |
+| Carlos Erick | _[ex.: requisitos e contextualização]_ | _[ex.: análise exploratória]_ |
+| Carlos José | _[ex.: modelagem OLTP e script]_ | _[ex.: dashboard operacional]_ |
+| Glenda Santana | _[ex.: modelagem OLAP e ETL]_ | _[ex.: dashboards tático e estratégico]_ |
+| Kalvin Albuquerque | _[ex.: dicionário e documentação]_ | _[ex.: plano 5W2H e apresentação]_ |
 
 #### Perguntas ao cliente (professor), a esclarecer
 

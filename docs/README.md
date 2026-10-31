@@ -1,5 +1,7 @@
 # Documentos do projeto: como ler
 
+**Vídeo de feedback até 21/10:** use o [roteiro detalhado de gravação](roteiros/roteiro_video_feedback_21-10.md), com falas de Glenda Santana, identificação da equipe, sequência de telas e consultas de demonstração. As consultas estão em [`src/sql/04_demonstracao_video_feedback.sql`](../src/sql/04_demonstracao_video_feedback.sql); são somente de leitura e não fazem parte da carga do banco.
+
 Esta pasta guarda **tudo que não é código**. Cada subpasta tem um tipo de documento. Os PDFs e os `.md` de `entregas/` são **gerados** a partir de um único modelo (`../src/documentos/modelo_entrega.md`): para mudar o texto, edite o modelo e rode `python src/documentos/montar_entregas.py`.
 
 ## Mapa das pastas
