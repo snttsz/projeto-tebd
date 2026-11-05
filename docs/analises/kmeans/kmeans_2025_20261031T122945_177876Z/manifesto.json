@@ -1,0 +1,63 @@
+{
+  "status": "concluido",
+  "dados": "sinteticos",
+  "ano": 2025,
+  "extraido_agora_do_banco": true,
+  "origem": "SELECT no DW do PostgreSQL, em transação somente leitura",
+  "criado_utc": "2026-10-31T12:29:47.471097+00:00",
+  "bairros": 12,
+  "k": 3,
+  "k_sugerido": 3,
+  "k_manual": null,
+  "semente": 42,
+  "n_init": 50,
+  "max_iter": 500,
+  "variaveis": [
+    "kg_coletados_hab",
+    "pct_reciclaveis",
+    "pct_canceladas",
+    "ocorrencias_1000_hab"
+  ],
+  "scaler_media": [
+    2.83402074634485,
+    23.823092029836502,
+    6.158424908424909,
+    1.8640657588237002
+  ],
+  "scaler_escala": [
+    0.9328054388591244,
+    8.708971035726309,
+    3.820429519635246,
+    0.641923962756
+  ],
+  "avisos": [
+    "Dados sintéticos com padrões deliberados; não são evidência sobre uma cidade real.",
+    "Amostra territorial pequena: agrupamentos são exploratórios e sensíveis às variáveis.",
+    "Há bairros com silhueta negativa; revise-os antes de usar os grupos em decisões."
+  ],
+  "versoes": {
+    "python": "3.12.7",
+    "numpy": "2.3.2",
+    "pandas": "2.3.1",
+    "scikit-learn": "1.7.1",
+    "matplotlib": "3.11.2"
+  },
+  "sha256": {
+    "01_escolha_k.png": "28d79d9a836d586c5ce844894a037427e06df5dfc284946766568e1adb65c665",
+    "02_perfis_bairros.png": "dcd1e52c961cd011335f9bdeb9e882a345e7a231ba151bbaab1101786482cf36",
+    "03_centroides.png": "e3b79155dcc951a4ec61abf4e315a9e94dd0151fae1492887d8650f6e2386ed9",
+    "04_projecao_pca.png": "8eb4ddfef0a4ddef29b022b6d1aeb1d8fe0b6af1d3742efef58bcc27b8aa1c7c",
+    "05_silhuetas.png": "c5a8a9b7e2ec349ace1dbb91d259f3bfec0222431e843cb3df55ba0809b4dec9",
+    "avaliacao_k.csv": "e9578514369034746184e19b2d08939e562b8419f495241005cf49b126e1973a",
+    "bairros_grupos.csv": "842502c3d7e7c30d7dd482bbbadf9815610bb94c44296e102facf7e94abea3f4",
+    "base_bairros.csv": "53b7abae0f817ae249c43607d984d2e9033dccd49b325d49911f6d20370ceaa6",
+    "centroides.csv": "4ca9729247efa395ebf600126b50d0d4f7e9e3619192f11b95081076a53ad6f4",
+    "consulta_preparacao.sql": "5c260e9e8ae3ea65640dafeba58e09767a6c6fbbe574483a5738287431f76496",
+    "correlacoes.csv": "cc4002b51963a758b98489fe2de8bf73e4e6118582f590dde21f18789ee9ca8b",
+    "estabilidade_sementes.csv": "41cf685aa456c9853d2b56daac9a314e8a15971a25b2e3ded29d5090915ef152",
+    "estatisticas_descritivas.csv": "d972fcd0ce74fdcee4c134d36b861095b04ff46194926a6cf58ccbe9b270cd75",
+    "relatorio.md": "3518da01014ca6f8b3bbae25333a17ab4bfc8ae18fe0b7ace6442116a39b1ba0",
+    "sensibilidade_bairros.csv": "d45352ccbe22bb431280d1f5135b5dd01634d9ee3a7903744086ac899b3066bb",
+    "variaveis_padronizadas.csv": "ff61a2034df96a8a0209fe6d47d72189ebc9b68a3c37f68587d506d951de979c"
+  }
+}
