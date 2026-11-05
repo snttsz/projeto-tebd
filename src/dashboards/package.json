@@ -1,0 +1,23 @@
+{
+  "name": "ciclo-urbano-paineis",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.mjs",
+    "build": "node build.mjs",
+    "gerar": "node gerar_paineis.mjs",
+    "reproduzir": "node gerar_paineis.mjs --reproduzir",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.15",
+    "esbuild": "0.28.2",
+    "linkedom": "0.18.15"
+  },
+  "dependencies": {
+    "@fontsource/manrope": "5.3.0",
+    "lucide-react": "1.69.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}

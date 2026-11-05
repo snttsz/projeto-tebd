@@ -1,0 +1,236 @@
+{
+  "status": "concluido",
+  "criado_utc": "2026-11-05T23:25:02.924Z",
+  "dados": "sinteticos",
+  "ano": 2025,
+  "referencia_operacional": "2026-01-01",
+  "origem": "Reprodução isolada dos scripts 01–03 em PostgreSQL embarcado (PGlite 0.5.15), reconciliada com a base do K-means de 31/10. Não é conexão ao banco original.",
+  "versao": "PostgreSQL 18.6 (PGlite 0.5.15) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.13 (e13ee988ce3d87a738dd8f3661d02223308c412a), 32-bit",
+  "bairros": 12,
+  "comparacoes_kmeans": 84,
+  "consultas": [
+    {
+      "id": "O1",
+      "linhas": 3,
+      "sha256_sql": "08c4888f01d5d0c04fb88ff7be58ba8bd747b3e6f67cc4773af4c078e9f7dede"
+    },
+    {
+      "id": "O2",
+      "linhas": 54,
+      "sha256_sql": "b4bed846e400a7cbd8338aaa31bb684b7bd1f5d4a4d2849be5b44455fe361609"
+    },
+    {
+      "id": "O3",
+      "linhas": 8,
+      "sha256_sql": "277773046b42e73dece309c53fcb92c877a2eb19b50a3edca12501e07bb6f394"
+    },
+    {
+      "id": "O4",
+      "linhas": 21,
+      "sha256_sql": "8d6b531d93f9bd436c413d8b38c031dfebe30f7c12749ed2eaf346fcbd8f9465"
+    },
+    {
+      "id": "O5",
+      "linhas": 18,
+      "sha256_sql": "b7f27dac5ca223b1cd4922d16839f36759c85bad1f241616d5536112c26f8a01"
+    },
+    {
+      "id": "T1",
+      "linhas": 24,
+      "sha256_sql": "c97ebb60ac8e45049579b618fda808d70a520bf2b33c645ddfe839ae611449a2"
+    },
+    {
+      "id": "T2",
+      "linhas": 9,
+      "sha256_sql": "32af00026a47b612f2b1f9063888d7bc8e553c2b4697aa1b0972c2ec6f79310a"
+    },
+    {
+      "id": "T3",
+      "linhas": 25,
+      "sha256_sql": "3f47d318fce000ceb92b51fac1fbc974cfdb3409cae9211c44d2cd277def95d6"
+    },
+    {
+      "id": "T4",
+      "linhas": 6,
+      "sha256_sql": "e111e228af778c9f17d519139709baa8c2d4b98bb461846c2f8db81edb6163d1"
+    },
+    {
+      "id": "T5",
+      "linhas": 12,
+      "sha256_sql": "a5c54fe4feb6c23b3fe846b6113ad00955e82cb1b6322edc86096c7e289d477d"
+    },
+    {
+      "id": "E1",
+      "linhas": 96,
+      "sha256_sql": "0ccf4363a087b1d875f2769fdcf92e3cc84b50fbf38e8371f979c2ffd6220ade"
+    },
+    {
+      "id": "E2",
+      "linhas": 17,
+      "sha256_sql": "fcfcefa7aa86af7f09ebc43f212f31c65a8eaa23850b4cd84751a4378d441911"
+    },
+    {
+      "id": "E3",
+      "linhas": 4,
+      "sha256_sql": "b8ab0c1bbe86c860e44ca74033074f7272ceaf97e275da1001ed01b0ddde66a0"
+    },
+    {
+      "id": "E4",
+      "linhas": 48,
+      "sha256_sql": "0c9bf805467be4e529446eb504f58c4f676b227e8cadb6264e551fa82a7f9d81"
+    },
+    {
+      "id": "E5",
+      "linhas": 20,
+      "sha256_sql": "b09c1a093936c4d95a7b5e52b8566ce012f7a08ee793030d3cde8396c21d051c"
+    }
+  ],
+  "totais": {
+    "peso_kg": 920320.77,
+    "reciclavel_kg": 233576.79,
+    "viagens": 1252,
+    "canceladas": 77,
+    "ocorrencias": 600
+  },
+  "interface": {
+    "framework": "React",
+    "compilado_utc": "2026-11-05T23:36:01.925Z",
+    "offline": true
+  },
+  "fontes_sha256": {
+    "src/sql/01_construcao_oltp_olap.sql": "f2a94567bf65e500adce35abbdcb440a865756f62ac0de06ebad737a66023ca3",
+    "src/sql/02_dicionario_comentarios.sql": "74dbd994b88679d462f9efa6c68953069b8e92eac92a6b965d66439c3efca321",
+    "src/sql/03_views_apoio.sql": "6aabc241c64738f8a3bdc838088e72e53e78bdebab6db341659b23cf0f0472d0",
+    "src/sql/05_dashboard_operacional.sql": "e981152a315a526deadb2900f7ac0d162b8fd162e4e476e80f8b13c6c856dc30",
+    "src/sql/06_dashboard_tatico.sql": "210b7d66e1163989c9a72a19a2c1bd0e3b8950cbec7a523693c2afc73f9dc65b",
+    "src/sql/07_dashboard_estrategico.sql": "85182982dcc54fe33ec62254850deb6c5469fdb54b75452a6c08ef50c8ce3f4c",
+    "src/documentos/modelo_final.md": "1851426647c42b2b5cd3ab6f05ecc36270b09082b28a9025d2c9908daf6ba333",
+    "src/documentos/roteiro_final.md": "6b348ce08c6c8f755cb911ae3925967606e39240576f42fec9067198ea2f531e",
+    "src/dashboards/gerar_paineis.mjs": "78e8286f0c4c3e3234058a21d4408c40e37c52666d0c0a5c3abc20ad362f1308",
+    "src/dashboards/renderizar.mjs": "6621b9dcaaea75ecd568901fd9769739f00ef8003fcf082882daa65c1e3dacfe",
+    "src/dashboards/dados.mjs": "8f3fd7360fd154b9f4dc9d4d22b9ad0fc3414e97fd8c147f62bf0b7d6254cb92",
+    "src/dashboards/acoes.mjs": "66e971fcfd7663e6fcb5b2ac7314037cff75ae13766a8ed6297b8bd62bb4ca40",
+    "src/dashboards/ui/main.jsx": "64917032b28b43792ebde8e5aebdfb9a962c24d125833f9f80f5a347c4e70ff9",
+    "src/dashboards/ui/App.jsx": "284cde75a1ef1a41d319f5312f87a7f7c99fdff6922fecc951f228803b4aa2e0",
+    "src/dashboards/ui/charts.jsx": "a642bf2017385e6f7752473151212521f4abbe7fcbe6a9520bd6908f164a1d9a",
+    "src/dashboards/ui/model.mjs": "857860eab580dca668059ad55fd4c36afdad3449f14904e146617fe815147aa4",
+    "src/dashboards/ui/styles.css": "bac36e4ac04d6d38c9129252c248a8a6f6b87aa6a3276b489183992e07cf368d",
+    "src/dashboards/package.json": "4185b2331a3191879f5bcead71886678b6ade2af7d4a734199c9d4c571293ba3",
+    "src/dashboards/package-lock.json": "27ecc70fbe1f8df22b8ee58be56bb2cbbb4099eb5e564e2ad0e87baaf87b69ea"
+  },
+  "mineracao": {
+    "pasta": "docs/analises/kmeans/kmeans_2025_20261031T122945_177876Z",
+    "sha256_manifesto": "89ff94783b0fd4c967af35d1b3a8ad1f61d40405fba5f7c747ea706e70bbf672",
+    "arquivos_conferidos": 16
+  },
+  "revisao_kmeans": {
+    "metodo": "Distâncias euclidianas após padronização com parâmetros preservados; cálculo independente do scikit-learn.",
+    "silhueta_media": 0.36374541459094417,
+    "bairros": [
+      {
+        "bairro": "Centro",
+        "grupo": 2,
+        "silhueta": 0.10562550976767586,
+        "distancia_media_interna": 3.4304936716915027,
+        "grupo_alternativo": 3,
+        "distancia_media_alternativa": 3.8356345235208935
+      },
+      {
+        "bairro": "Jardim Aurora",
+        "grupo": 3,
+        "silhueta": 0.45941479298040977,
+        "distancia_media_interna": 1.3022922881227057,
+        "grupo_alternativo": 1,
+        "distancia_media_alternativa": 2.4090416667201033
+      },
+      {
+        "bairro": "Vila Esperança",
+        "grupo": 1,
+        "silhueta": 0.3729202248994776,
+        "distancia_media_interna": 2.0195378666211,
+        "grupo_alternativo": 2,
+        "distancia_media_alternativa": 3.2205437757857256
+      },
+      {
+        "bairro": "Parque das Águas",
+        "grupo": 3,
+        "silhueta": 0.6297893604821253,
+        "distancia_media_interna": 1.3575153715843316,
+        "grupo_alternativo": 1,
+        "distancia_media_alternativa": 3.666872927672267
+      },
+      {
+        "bairro": "Santa Luzia",
+        "grupo": 3,
+        "silhueta": 0.3399392917632446,
+        "distancia_media_interna": 1.6324897122286002,
+        "grupo_alternativo": 1,
+        "distancia_media_alternativa": 2.47324176679071
+      },
+      {
+        "bairro": "Bela Vista",
+        "grupo": 1,
+        "silhueta": 0.2762283582946937,
+        "distancia_media_interna": 1.7581036512274744,
+        "grupo_alternativo": 3,
+        "distancia_media_alternativa": 2.4290861231936893
+      },
+      {
+        "bairro": "Novo Horizonte",
+        "grupo": 1,
+        "silhueta": 0.12707546175443865,
+        "distancia_media_interna": 2.445131473461557,
+        "grupo_alternativo": 3,
+        "distancia_media_alternativa": 2.8010800090187407
+      },
+      {
+        "bairro": "São José",
+        "grupo": 3,
+        "silhueta": 0.5897175302220805,
+        "distancia_media_interna": 1.1086909582066369,
+        "grupo_alternativo": 1,
+        "distancia_media_alternativa": 2.7022625626845738
+      },
+      {
+        "bairro": "Alvorada",
+        "grupo": 1,
+        "silhueta": 0.46358168696774327,
+        "distancia_media_interna": 1.4386961329480057,
+        "grupo_alternativo": 3,
+        "distancia_media_alternativa": 2.6820414180406473
+      },
+      {
+        "bairro": "Industrial",
+        "grupo": 2,
+        "silhueta": -0.10377886759276211,
+        "distancia_media_interna": 3.4304936716915027,
+        "grupo_alternativo": 1,
+        "distancia_media_alternativa": 3.074480923159222
+      },
+      {
+        "bairro": "Morada do Sol",
+        "grupo": 3,
+        "silhueta": 0.6278246338200529,
+        "distancia_media_interna": 1.2273598649641588,
+        "grupo_alternativo": 1,
+        "distancia_media_alternativa": 3.297799845169574
+      },
+      {
+        "bairro": "Cidade Nova",
+        "grupo": 1,
+        "silhueta": 0.47660699173215004,
+        "distancia_media_interna": 1.7068823265914506,
+        "grupo_alternativo": 3,
+        "distancia_media_alternativa": 3.2611867174923015
+      }
+    ]
+  },
+  "sha256": {
+    "painel.html": "e1756e95ace8e223f69f1196dffaa3aedc929a057100ca814cf5f32076567bae",
+    "consultas_dashboards.md": "a18218d0c6abc00242a71c1670ddf18bb5d3503b48e5217f564bde11cf984bfe",
+    "resultados_dashboards.json": "eb43627ca6d89420e2f2b43124790a2b6f6f7d6ba32d3935825ab391731e3ea9",
+    "plano_5w2h.md": "879496da5c6ff326ae69528588c358a008e908c63f3ae8e44b5ae9748011a263",
+    "relatorio_final.md": "3ea774c98b6c487a56fe0891df1f3276288ca733fbf143fddd45001d2507fff5",
+    "roteiro_apresentacao.md": "6b348ce08c6c8f755cb911ae3925967606e39240576f42fec9067198ea2f531e"
+  }
+}

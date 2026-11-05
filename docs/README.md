@@ -1,5 +1,9 @@
 # Documentos do projeto: como ler
 
+**Para a entrega de 06/11**, use o [relatório final](entregas/final/relatorio_final.md) e o [painel React offline](entregas/final/painel.html): visão geral, três níveis de dashboard, cinco consultas por nível, mineração e seis ações 5W2H. Os documentos e roteiros de 19/10 abaixo preservam o checkpoint e suas pendências da época.
+
+O [enunciado em Markdown](enunciado/enunciado.md) registra o texto fornecido pelo usuário em 05/11/2026, incluindo o barema e o cronograma. O PDF original está na mesma pasta.
+
 **Vídeo de feedback até 21/10:** use o [roteiro detalhado de gravação](roteiros/roteiro_video_feedback_21-10.md), com falas de Glenda Santana, identificação da equipe, sequência de telas e consultas de demonstração. As consultas estão em [`src/sql/04_demonstracao_video_feedback.sql`](../src/sql/04_demonstracao_video_feedback.sql); são somente de leitura e não fazem parte da carga do banco.
 
 Esta pasta guarda **tudo que não é código**. Cada subpasta tem um tipo de documento. Os PDFs e os `.md` de `entregas/` são **gerados** a partir de um único modelo (`../src/documentos/modelo_entrega.md`): para mudar o texto, edite o modelo e rode `python src/documentos/montar_entregas.py`.

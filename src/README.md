@@ -1,5 +1,7 @@
 # Código do projeto (`src/`)
 
+A entrega final é gerada por [`dashboards/gerar_paineis.mjs`](dashboards/README.md), com as consultas SQL 05 (operacional), 06 (tático) e 07 (estratégico). Esses três arquivos são somente leitura e não alteram a carga 01–03. Os modelos adicionais são `documentos/modelo_final.md` e `documentos/roteiro_final.md`.
+
 | Pasta / arquivo | O que faz |
 |---|---|
 | `config.py` | **Configuração central**: conexão com o banco e caminhos de programas. Lê variáveis de ambiente ou o arquivo `.env` da raiz. Nenhum outro arquivo guarda porta, senha ou caminho |

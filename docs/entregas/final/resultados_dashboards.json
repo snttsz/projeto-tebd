@@ -1,0 +1,3663 @@
+{
+  "manifesto": {
+    "status": "concluido",
+    "criado_utc": "2026-11-05T23:25:02.924Z",
+    "dados": "sinteticos",
+    "ano": 2025,
+    "referencia_operacional": "2026-01-01",
+    "origem": "Reprodução isolada dos scripts 01–03 em PostgreSQL embarcado (PGlite 0.5.15), reconciliada com a base do K-means de 31/10. Não é conexão ao banco original.",
+    "versao": "PostgreSQL 18.6 (PGlite 0.5.15) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 6.0.13 (e13ee988ce3d87a738dd8f3661d02223308c412a), 32-bit",
+    "bairros": 12,
+    "comparacoes_kmeans": 84,
+    "consultas": [
+      {
+        "id": "O1",
+        "linhas": 3,
+        "sha256_sql": "08c4888f01d5d0c04fb88ff7be58ba8bd747b3e6f67cc4773af4c078e9f7dede"
+      },
+      {
+        "id": "O2",
+        "linhas": 54,
+        "sha256_sql": "b4bed846e400a7cbd8338aaa31bb684b7bd1f5d4a4d2849be5b44455fe361609"
+      },
+      {
+        "id": "O3",
+        "linhas": 8,
+        "sha256_sql": "277773046b42e73dece309c53fcb92c877a2eb19b50a3edca12501e07bb6f394"
+      },
+      {
+        "id": "O4",
+        "linhas": 21,
+        "sha256_sql": "8d6b531d93f9bd436c413d8b38c031dfebe30f7c12749ed2eaf346fcbd8f9465"
+      },
+      {
+        "id": "O5",
+        "linhas": 18,
+        "sha256_sql": "b7f27dac5ca223b1cd4922d16839f36759c85bad1f241616d5536112c26f8a01"
+      },
+      {
+        "id": "T1",
+        "linhas": 24,
+        "sha256_sql": "c97ebb60ac8e45049579b618fda808d70a520bf2b33c645ddfe839ae611449a2"
+      },
+      {
+        "id": "T2",
+        "linhas": 9,
+        "sha256_sql": "32af00026a47b612f2b1f9063888d7bc8e553c2b4697aa1b0972c2ec6f79310a"
+      },
+      {
+        "id": "T3",
+        "linhas": 25,
+        "sha256_sql": "3f47d318fce000ceb92b51fac1fbc974cfdb3409cae9211c44d2cd277def95d6"
+      },
+      {
+        "id": "T4",
+        "linhas": 6,
+        "sha256_sql": "e111e228af778c9f17d519139709baa8c2d4b98bb461846c2f8db81edb6163d1"
+      },
+      {
+        "id": "T5",
+        "linhas": 12,
+        "sha256_sql": "a5c54fe4feb6c23b3fe846b6113ad00955e82cb1b6322edc86096c7e289d477d"
+      },
+      {
+        "id": "E1",
+        "linhas": 96,
+        "sha256_sql": "0ccf4363a087b1d875f2769fdcf92e3cc84b50fbf38e8371f979c2ffd6220ade"
+      },
+      {
+        "id": "E2",
+        "linhas": 17,
+        "sha256_sql": "fcfcefa7aa86af7f09ebc43f212f31c65a8eaa23850b4cd84751a4378d441911"
+      },
+      {
+        "id": "E3",
+        "linhas": 4,
+        "sha256_sql": "b8ab0c1bbe86c860e44ca74033074f7272ceaf97e275da1001ed01b0ddde66a0"
+      },
+      {
+        "id": "E4",
+        "linhas": 48,
+        "sha256_sql": "0c9bf805467be4e529446eb504f58c4f676b227e8cadb6264e551fa82a7f9d81"
+      },
+      {
+        "id": "E5",
+        "linhas": 20,
+        "sha256_sql": "b09c1a093936c4d95a7b5e52b8566ce012f7a08ee793030d3cde8396c21d051c"
+      }
+    ],
+    "totais": {
+      "peso_kg": 920320.77,
+      "reciclavel_kg": 233576.79,
+      "viagens": 1252,
+      "canceladas": 77,
+      "ocorrencias": 600
+    },
+    "interface": {
+      "framework": "React",
+      "compilado_utc": "2026-11-05T23:25:02.924Z",
+      "offline": true
+    },
+    "fontes_sha256": {
+      "src/sql/01_construcao_oltp_olap.sql": "f2a94567bf65e500adce35abbdcb440a865756f62ac0de06ebad737a66023ca3",
+      "src/sql/02_dicionario_comentarios.sql": "74dbd994b88679d462f9efa6c68953069b8e92eac92a6b965d66439c3efca321",
+      "src/sql/03_views_apoio.sql": "6aabc241c64738f8a3bdc838088e72e53e78bdebab6db341659b23cf0f0472d0",
+      "src/sql/05_dashboard_operacional.sql": "e981152a315a526deadb2900f7ac0d162b8fd162e4e476e80f8b13c6c856dc30",
+      "src/sql/06_dashboard_tatico.sql": "210b7d66e1163989c9a72a19a2c1bd0e3b8950cbec7a523693c2afc73f9dc65b",
+      "src/sql/07_dashboard_estrategico.sql": "85182982dcc54fe33ec62254850deb6c5469fdb54b75452a6c08ef50c8ce3f4c",
+      "src/documentos/modelo_final.md": "1851426647c42b2b5cd3ab6f05ecc36270b09082b28a9025d2c9908daf6ba333",
+      "src/documentos/roteiro_final.md": "6b348ce08c6c8f755cb911ae3925967606e39240576f42fec9067198ea2f531e",
+      "src/dashboards/gerar_paineis.mjs": "78e8286f0c4c3e3234058a21d4408c40e37c52666d0c0a5c3abc20ad362f1308",
+      "src/dashboards/renderizar.mjs": "6621b9dcaaea75ecd568901fd9769739f00ef8003fcf082882daa65c1e3dacfe",
+      "src/dashboards/dados.mjs": "8f3fd7360fd154b9f4dc9d4d22b9ad0fc3414e97fd8c147f62bf0b7d6254cb92",
+      "src/dashboards/acoes.mjs": "66e971fcfd7663e6fcb5b2ac7314037cff75ae13766a8ed6297b8bd62bb4ca40",
+      "src/dashboards/ui/main.jsx": "64917032b28b43792ebde8e5aebdfb9a962c24d125833f9f80f5a347c4e70ff9",
+      "src/dashboards/ui/App.jsx": "284cde75a1ef1a41d319f5312f87a7f7c99fdff6922fecc951f228803b4aa2e0",
+      "src/dashboards/ui/charts.jsx": "8c4230a265ab00df81ef72e37f0c94e11464adf7e48a6cfa616dc2f9a3c9af50",
+      "src/dashboards/ui/model.mjs": "857860eab580dca668059ad55fd4c36afdad3449f14904e146617fe815147aa4",
+      "src/dashboards/ui/styles.css": "cd0b012badd77bd57632d139f9e157804ab2dc485493ac1753399aab49fb6d0e",
+      "src/dashboards/package.json": "4185b2331a3191879f5bcead71886678b6ade2af7d4a734199c9d4c571293ba3",
+      "src/dashboards/package-lock.json": "27ecc70fbe1f8df22b8ee58be56bb2cbbb4099eb5e564e2ad0e87baaf87b69ea"
+    },
+    "mineracao": {
+      "pasta": "docs/analises/kmeans/kmeans_2025_20261031T122945_177876Z",
+      "sha256_manifesto": "89ff94783b0fd4c967af35d1b3a8ad1f61d40405fba5f7c747ea706e70bbf672",
+      "arquivos_conferidos": 16
+    },
+    "revisao_kmeans": {
+      "metodo": "Distâncias euclidianas após padronização com parâmetros preservados; cálculo independente do scikit-learn.",
+      "silhueta_media": 0.36374541459094417,
+      "bairros": [
+        {
+          "bairro": "Centro",
+          "grupo": 2,
+          "silhueta": 0.10562550976767586,
+          "distancia_media_interna": 3.4304936716915027,
+          "grupo_alternativo": 3,
+          "distancia_media_alternativa": 3.8356345235208935
+        },
+        {
+          "bairro": "Jardim Aurora",
+          "grupo": 3,
+          "silhueta": 0.45941479298040977,
+          "distancia_media_interna": 1.3022922881227057,
+          "grupo_alternativo": 1,
+          "distancia_media_alternativa": 2.4090416667201033
+        },
+        {
+          "bairro": "Vila Esperança",
+          "grupo": 1,
+          "silhueta": 0.3729202248994776,
+          "distancia_media_interna": 2.0195378666211,
+          "grupo_alternativo": 2,
+          "distancia_media_alternativa": 3.2205437757857256
+        },
+        {
+          "bairro": "Parque das Águas",
+          "grupo": 3,
+          "silhueta": 0.6297893604821253,
+          "distancia_media_interna": 1.3575153715843316,
+          "grupo_alternativo": 1,
+          "distancia_media_alternativa": 3.666872927672267
+        },
+        {
+          "bairro": "Santa Luzia",
+          "grupo": 3,
+          "silhueta": 0.3399392917632446,
+          "distancia_media_interna": 1.6324897122286002,
+          "grupo_alternativo": 1,
+          "distancia_media_alternativa": 2.47324176679071
+        },
+        {
+          "bairro": "Bela Vista",
+          "grupo": 1,
+          "silhueta": 0.2762283582946937,
+          "distancia_media_interna": 1.7581036512274744,
+          "grupo_alternativo": 3,
+          "distancia_media_alternativa": 2.4290861231936893
+        },
+        {
+          "bairro": "Novo Horizonte",
+          "grupo": 1,
+          "silhueta": 0.12707546175443865,
+          "distancia_media_interna": 2.445131473461557,
+          "grupo_alternativo": 3,
+          "distancia_media_alternativa": 2.8010800090187407
+        },
+        {
+          "bairro": "São José",
+          "grupo": 3,
+          "silhueta": 0.5897175302220805,
+          "distancia_media_interna": 1.1086909582066369,
+          "grupo_alternativo": 1,
+          "distancia_media_alternativa": 2.7022625626845738
+        },
+        {
+          "bairro": "Alvorada",
+          "grupo": 1,
+          "silhueta": 0.46358168696774327,
+          "distancia_media_interna": 1.4386961329480057,
+          "grupo_alternativo": 3,
+          "distancia_media_alternativa": 2.6820414180406473
+        },
+        {
+          "bairro": "Industrial",
+          "grupo": 2,
+          "silhueta": -0.10377886759276211,
+          "distancia_media_interna": 3.4304936716915027,
+          "grupo_alternativo": 1,
+          "distancia_media_alternativa": 3.074480923159222
+        },
+        {
+          "bairro": "Morada do Sol",
+          "grupo": 3,
+          "silhueta": 0.6278246338200529,
+          "distancia_media_interna": 1.2273598649641588,
+          "grupo_alternativo": 1,
+          "distancia_media_alternativa": 3.297799845169574
+        },
+        {
+          "bairro": "Cidade Nova",
+          "grupo": 1,
+          "silhueta": 0.47660699173215004,
+          "distancia_media_interna": 1.7068823265914506,
+          "grupo_alternativo": 3,
+          "distancia_media_alternativa": 3.2611867174923015
+        }
+      ]
+    }
+  },
+  "resultados": [
+    {
+      "id": "O1",
+      "titulo": "Coletas canceladas",
+      "leitura": "A supervisão identifica rota, veículo e motorista das coletas canceladas nos últimos sete dias completos.",
+      "eixo": "data_coleta",
+      "medida": "id_coleta",
+      "sql": "SELECT c.id_coleta, c.data_coleta, b.nome AS bairro, r.nome AS rota,\n       r.turno, v.placa, f.nome AS motorista, c.status\nFROM oltp.coleta c\nJOIN oltp.rota r ON r.id_rota = c.id_rota\nJOIN oltp.bairro b ON b.id_bairro = r.id_bairro\nJOIN oltp.veiculo v ON v.id_veiculo = c.id_veiculo\nJOIN oltp.funcionario f ON f.id_funcionario = c.id_motorista\nWHERE c.status = 'CANCELADA'\n  AND c.data_coleta >= bi.data_referencia()::date - 7\n  AND c.data_coleta < bi.data_referencia()::date\nORDER BY c.data_coleta DESC, c.id_coleta;",
+      "arquivo": "05_dashboard_operacional.sql",
+      "rows": [
+        {
+          "id_coleta": 243,
+          "data_coleta": "2025-12-30T00:00:00.000Z",
+          "bairro": "Cidade Nova",
+          "rota": "Rota SELETIVA - Cidade Nova",
+          "turno": "MANHA",
+          "placa": "SEL2B22",
+          "motorista": "Marcos Souza",
+          "status": "CANCELADA"
+        },
+        {
+          "id_coleta": 399,
+          "data_coleta": "2025-12-30T00:00:00.000Z",
+          "bairro": "Bela Vista",
+          "rota": "Rota SELETIVA - Bela Vista",
+          "turno": "MANHA",
+          "placa": "SEL2B22",
+          "motorista": "Marcos Souza",
+          "status": "CANCELADA"
+        },
+        {
+          "id_coleta": 836,
+          "data_coleta": "2025-12-25T00:00:00.000Z",
+          "bairro": "Vila Esperança",
+          "rota": "Rota SELETIVA - Vila Esperança",
+          "turno": "MANHA",
+          "placa": "SEL1A11",
+          "motorista": "Antônio Reis",
+          "status": "CANCELADA"
+        }
+      ]
+    },
+    {
+      "id": "O2",
+      "titulo": "Ocorrências abertas há mais de 72 horas",
+      "leitura": "A supervisão prioriza registros sem resolução na referência, mesmo que tenham sido fechados depois; são 54 nessa data, contra 53 ainda abertos no estado final da base.",
+      "eixo": "bairro",
+      "medida": "horas_abertas",
+      "sql": "SELECT o.id_ocorrencia, b.nome AS bairro, b.regiao, o.tipo_ocorrencia,\n       o.canal, 'SEM_RESOLUCAO' AS situacao_na_referencia,\n       o.status AS status_final_base, o.data_abertura, o.data_fechamento,\n       ROUND(EXTRACT(epoch FROM (bi.data_referencia() - o.data_abertura)) / 3600, 1) AS horas_abertas\nFROM oltp.ocorrencia o\nJOIN oltp.bairro b ON b.id_bairro = o.id_bairro\nWHERE o.data_abertura < bi.data_referencia() - INTERVAL '72 hours'\n  AND (o.data_fechamento IS NULL OR o.data_fechamento > bi.data_referencia())\nORDER BY horas_abertas DESC, o.id_ocorrencia;",
+      "arquivo": "05_dashboard_operacional.sql",
+      "rows": [
+        {
+          "id_ocorrencia": 309,
+          "bairro": "Cidade Nova",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-01-05T07:47:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "8659.2"
+        },
+        {
+          "id_ocorrencia": 236,
+          "bairro": "Bela Vista",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-01-11T19:24:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "8503.6"
+        },
+        {
+          "id_ocorrencia": 336,
+          "bairro": "Vila Esperança",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-01-23T03:23:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "8231.6"
+        },
+        {
+          "id_ocorrencia": 158,
+          "bairro": "Cidade Nova",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-01-25T03:10:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "8183.8"
+        },
+        {
+          "id_ocorrencia": 171,
+          "bairro": "Vila Esperança",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-02-10T05:31:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "7797.5"
+        },
+        {
+          "id_ocorrencia": 473,
+          "bairro": "Morada do Sol",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-02-15T10:29:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "7672.5"
+        },
+        {
+          "id_ocorrencia": 103,
+          "bairro": "Cidade Nova",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-03-06T04:19:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "7222.7"
+        },
+        {
+          "id_ocorrencia": 5,
+          "bairro": "Bela Vista",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-03-20T21:40:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "6869.3"
+        },
+        {
+          "id_ocorrencia": 12,
+          "bairro": "Cidade Nova",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-04-07T19:58:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "6439.0"
+        },
+        {
+          "id_ocorrencia": 266,
+          "bairro": "Bela Vista",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-04-21T17:45:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "6105.3"
+        },
+        {
+          "id_ocorrencia": 288,
+          "bairro": "Centro",
+          "regiao": "CENTRO",
+          "tipo_ocorrencia": "OUTROS",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-05-22T09:26:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "5369.6"
+        },
+        {
+          "id_ocorrencia": 517,
+          "bairro": "Santa Luzia",
+          "regiao": "SUL",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-05-25T11:30:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "5295.5"
+        },
+        {
+          "id_ocorrencia": 142,
+          "bairro": "Vila Esperança",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-06-11T16:55:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "4882.1"
+        },
+        {
+          "id_ocorrencia": 552,
+          "bairro": "São José",
+          "regiao": "OESTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-07-04T02:52:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "4344.1"
+        },
+        {
+          "id_ocorrencia": 155,
+          "bairro": "Cidade Nova",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-09-09T20:05:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "2718.9"
+        },
+        {
+          "id_ocorrencia": 406,
+          "bairro": "Alvorada",
+          "regiao": "OESTE",
+          "tipo_ocorrencia": "OUTROS",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-10-05T08:47:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "2106.2"
+        },
+        {
+          "id_ocorrencia": 180,
+          "bairro": "Cidade Nova",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-10-12T18:41:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "1928.3"
+        },
+        {
+          "id_ocorrencia": 465,
+          "bairro": "Novo Horizonte",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-10-20T06:33:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "1748.5"
+        },
+        {
+          "id_ocorrencia": 418,
+          "bairro": "Santa Luzia",
+          "regiao": "SUL",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-10-22T11:48:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "1695.2"
+        },
+        {
+          "id_ocorrencia": 123,
+          "bairro": "Morada do Sol",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "OUTROS",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-11-06T07:15:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "1339.8"
+        },
+        {
+          "id_ocorrencia": 346,
+          "bairro": "Alvorada",
+          "regiao": "OESTE",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-06T02:34:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "624.4"
+        },
+        {
+          "id_ocorrencia": 508,
+          "bairro": "Vila Esperança",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-06T19:06:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "607.9"
+        },
+        {
+          "id_ocorrencia": 551,
+          "bairro": "Alvorada",
+          "regiao": "OESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-07T10:40:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "592.3"
+        },
+        {
+          "id_ocorrencia": 24,
+          "bairro": "Parque das Águas",
+          "regiao": "SUL",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-07T22:02:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "581.0"
+        },
+        {
+          "id_ocorrencia": 60,
+          "bairro": "Novo Horizonte",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-08T01:47:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "577.2"
+        },
+        {
+          "id_ocorrencia": 380,
+          "bairro": "Vila Esperança",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-08T12:20:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "566.7"
+        },
+        {
+          "id_ocorrencia": 19,
+          "bairro": "Novo Horizonte",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-08T19:30:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "559.5"
+        },
+        {
+          "id_ocorrencia": 496,
+          "bairro": "Jardim Aurora",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-09T04:18:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "550.7"
+        },
+        {
+          "id_ocorrencia": 353,
+          "bairro": "Parque das Águas",
+          "regiao": "SUL",
+          "tipo_ocorrencia": "OUTROS",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-10T09:05:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "521.9"
+        },
+        {
+          "id_ocorrencia": 515,
+          "bairro": "Parque das Águas",
+          "regiao": "SUL",
+          "tipo_ocorrencia": "OUTROS",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-10T21:02:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "510.0"
+        },
+        {
+          "id_ocorrencia": 383,
+          "bairro": "Bela Vista",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-10T22:44:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "508.3"
+        },
+        {
+          "id_ocorrencia": 453,
+          "bairro": "Bela Vista",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-12T15:10:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "467.8"
+        },
+        {
+          "id_ocorrencia": 136,
+          "bairro": "Cidade Nova",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-13T07:09:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "451.9"
+        },
+        {
+          "id_ocorrencia": 486,
+          "bairro": "Cidade Nova",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-14T08:03:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "427.0"
+        },
+        {
+          "id_ocorrencia": 409,
+          "bairro": "Centro",
+          "regiao": "CENTRO",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-14T09:48:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "425.2"
+        },
+        {
+          "id_ocorrencia": 546,
+          "bairro": "Morada do Sol",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-15T07:05:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "403.9"
+        },
+        {
+          "id_ocorrencia": 424,
+          "bairro": "Vila Esperança",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-15T08:09:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "402.9"
+        },
+        {
+          "id_ocorrencia": 213,
+          "bairro": "Industrial",
+          "regiao": "SUL",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-16T18:48:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "368.2"
+        },
+        {
+          "id_ocorrencia": 253,
+          "bairro": "Bela Vista",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-17T15:01:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "348.0"
+        },
+        {
+          "id_ocorrencia": 87,
+          "bairro": "Novo Horizonte",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-18T01:16:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "337.7"
+        },
+        {
+          "id_ocorrencia": 1,
+          "bairro": "Centro",
+          "regiao": "CENTRO",
+          "tipo_ocorrencia": "OUTROS",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-18T07:24:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "331.6"
+        },
+        {
+          "id_ocorrencia": 246,
+          "bairro": "Parque das Águas",
+          "regiao": "SUL",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-18T11:37:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "327.4"
+        },
+        {
+          "id_ocorrencia": 329,
+          "bairro": "Morada do Sol",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "OUTROS",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-18T21:47:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "317.2"
+        },
+        {
+          "id_ocorrencia": 193,
+          "bairro": "Cidade Nova",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-19T11:43:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "303.3"
+        },
+        {
+          "id_ocorrencia": 221,
+          "bairro": "Jardim Aurora",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "OUTROS",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-20T08:55:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "282.1"
+        },
+        {
+          "id_ocorrencia": 586,
+          "bairro": "Vila Esperança",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-21T08:27:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "258.6"
+        },
+        {
+          "id_ocorrencia": 452,
+          "bairro": "Bela Vista",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "PRESENCIAL",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-21T10:30:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "256.5"
+        },
+        {
+          "id_ocorrencia": 460,
+          "bairro": "Bela Vista",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-21T23:56:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "243.1"
+        },
+        {
+          "id_ocorrencia": 361,
+          "bairro": "Morada do Sol",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-22T05:56:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "237.1"
+        },
+        {
+          "id_ocorrencia": 299,
+          "bairro": "Vila Esperança",
+          "regiao": "NORTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "TELEFONE",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-22T23:27:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "219.6"
+        },
+        {
+          "id_ocorrencia": 317,
+          "bairro": "São José",
+          "regiao": "OESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "RESOLVIDA",
+          "data_abertura": "2025-12-26T12:35:00.000Z",
+          "data_fechamento": "2026-01-06T04:35:00.000Z",
+          "horas_abertas": "134.4"
+        },
+        {
+          "id_ocorrencia": 499,
+          "bairro": "Novo Horizonte",
+          "regiao": "LESTE",
+          "tipo_ocorrencia": "OUTROS",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-27T21:17:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "101.7"
+        },
+        {
+          "id_ocorrencia": 249,
+          "bairro": "Alvorada",
+          "regiao": "OESTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "ABERTA",
+          "data_abertura": "2025-12-28T10:10:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "88.8"
+        },
+        {
+          "id_ocorrencia": 137,
+          "bairro": "São José",
+          "regiao": "OESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "canal": "APP",
+          "situacao_na_referencia": "SEM_RESOLUCAO",
+          "status_final_base": "EM_ATENDIMENTO",
+          "data_abertura": "2025-12-29T00:58:00.000Z",
+          "data_fechamento": null,
+          "horas_abertas": "74.0"
+        }
+      ]
+    },
+    {
+      "id": "O3",
+      "titulo": "Quilômetros por veículo na semana",
+      "leitura": "A coordenação de frota compara a distância registrada por veículo nos últimos sete dias completos; veículos sem viagens concluídas aparecem com zero.",
+      "eixo": "placa",
+      "medida": "km",
+      "sql": "SELECT v.placa, v.tipo, COUNT(c.id_coleta) AS coletas_concluidas,\n       COALESCE(SUM(c.km_percorridos), 0) AS km\nFROM oltp.veiculo v\nLEFT JOIN oltp.coleta c ON c.id_veiculo = v.id_veiculo\n  AND c.status = 'CONCLUIDA'\n  AND c.data_coleta >= bi.data_referencia()::date - 7\n  AND c.data_coleta < bi.data_referencia()::date\nGROUP BY v.id_veiculo, v.placa, v.tipo\nORDER BY km DESC, v.placa;",
+      "arquivo": "05_dashboard_operacional.sql",
+      "rows": [
+        {
+          "placa": "SEL1A11",
+          "tipo": "BAU_SELETIVA",
+          "coletas_concluidas": 5,
+          "km": "134.01"
+        },
+        {
+          "placa": "ABC1D23",
+          "tipo": "COMPACTADOR",
+          "coletas_concluidas": 4,
+          "km": "115.75"
+        },
+        {
+          "placa": "ABC3F45",
+          "tipo": "COMPACTADOR",
+          "coletas_concluidas": 4,
+          "km": "114.43"
+        },
+        {
+          "placa": "SEL2B22",
+          "tipo": "BAU_SELETIVA",
+          "coletas_concluidas": 4,
+          "km": "94.13"
+        },
+        {
+          "placa": "ABC4G56",
+          "tipo": "COMPACTADOR",
+          "coletas_concluidas": 2,
+          "km": "52.41"
+        },
+        {
+          "placa": "ABC2E34",
+          "tipo": "COMPACTADOR",
+          "coletas_concluidas": 2,
+          "km": "34.75"
+        },
+        {
+          "placa": "BAU1D44",
+          "tipo": "CAMINHAO_BAU",
+          "coletas_concluidas": 0,
+          "km": "0"
+        },
+        {
+          "placa": "CAC1C33",
+          "tipo": "CACAMBA",
+          "coletas_concluidas": 0,
+          "km": "0"
+        }
+      ]
+    },
+    {
+      "id": "O4",
+      "titulo": "Ocupação dos veículos por coleta",
+      "leitura": "A coordenação de frota compara o peso de cada coleta concluída com a capacidade nominal; acima de 100% exige verificar a pesagem e a possibilidade de múltiplas descargas.",
+      "eixo": "id_coleta",
+      "medida": "ocupacao_pct",
+      "sql": "WITH pesos AS (\n  SELECT id_coleta, SUM(peso_kg) AS peso_kg\n  FROM oltp.coleta_item GROUP BY id_coleta\n)\nSELECT c.id_coleta, c.data_coleta, r.nome AS rota, v.placa, v.capacidade_kg,\n       COALESCE(p.peso_kg, 0) AS peso_kg,\n       ROUND(100.0 * COALESCE(p.peso_kg, 0) / NULLIF(v.capacidade_kg, 0), 2) AS ocupacao_pct\nFROM oltp.coleta c\nJOIN oltp.rota r ON r.id_rota = c.id_rota\nJOIN oltp.veiculo v ON v.id_veiculo = c.id_veiculo\nLEFT JOIN pesos p ON p.id_coleta = c.id_coleta\nWHERE c.status = 'CONCLUIDA'\n  AND c.data_coleta >= bi.data_referencia()::date - 7\n  AND c.data_coleta < bi.data_referencia()::date\nORDER BY ocupacao_pct DESC, c.id_coleta;",
+      "arquivo": "05_dashboard_operacional.sql",
+      "rows": [
+        {
+          "id_coleta": 295,
+          "data_coleta": "2025-12-30T00:00:00.000Z",
+          "rota": "Rota SELETIVA - Parque das Águas",
+          "placa": "SEL2B22",
+          "capacidade_kg": 6000,
+          "peso_kg": "1079.74",
+          "ocupacao_pct": "18.00"
+        },
+        {
+          "id_coleta": 195,
+          "data_coleta": "2025-12-29T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Bela Vista",
+          "placa": "ABC1D23",
+          "capacidade_kg": 12000,
+          "peso_kg": "1999.15",
+          "ocupacao_pct": "16.66"
+        },
+        {
+          "id_coleta": 531,
+          "data_coleta": "2025-12-31T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Centro",
+          "placa": "ABC3F45",
+          "capacidade_kg": 15000,
+          "peso_kg": "2286.98",
+          "ocupacao_pct": "15.25"
+        },
+        {
+          "id_coleta": 91,
+          "data_coleta": "2025-12-29T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Cidade Nova",
+          "placa": "ABC1D23",
+          "capacidade_kg": 12000,
+          "peso_kg": "1769.59",
+          "ocupacao_pct": "14.75"
+        },
+        {
+          "id_coleta": 584,
+          "data_coleta": "2025-12-31T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Parque das Águas",
+          "placa": "ABC1D23",
+          "capacidade_kg": 12000,
+          "peso_kg": "1651.10",
+          "ocupacao_pct": "13.76"
+        },
+        {
+          "id_coleta": 940,
+          "data_coleta": "2025-12-25T00:00:00.000Z",
+          "rota": "Rota SELETIVA - Centro",
+          "placa": "SEL1A11",
+          "capacidade_kg": 6000,
+          "peso_kg": "813.58",
+          "ocupacao_pct": "13.56"
+        },
+        {
+          "id_coleta": 39,
+          "data_coleta": "2025-12-29T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Vila Esperança",
+          "placa": "ABC3F45",
+          "capacidade_kg": 15000,
+          "peso_kg": "1986.91",
+          "ocupacao_pct": "13.25"
+        },
+        {
+          "id_coleta": 1241,
+          "data_coleta": "2025-12-26T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Morada do Sol",
+          "placa": "ABC2E34",
+          "capacidade_kg": 12000,
+          "peso_kg": "1519.99",
+          "ocupacao_pct": "12.67"
+        },
+        {
+          "id_coleta": 451,
+          "data_coleta": "2025-12-30T00:00:00.000Z",
+          "rota": "Rota SELETIVA - Jardim Aurora",
+          "placa": "SEL2B22",
+          "capacidade_kg": 6000,
+          "peso_kg": "728.38",
+          "ocupacao_pct": "12.14"
+        },
+        {
+          "id_coleta": 1137,
+          "data_coleta": "2025-12-26T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - São José",
+          "placa": "ABC4G56",
+          "capacidade_kg": 15000,
+          "peso_kg": "1665.66",
+          "ocupacao_pct": "11.10"
+        },
+        {
+          "id_coleta": 888,
+          "data_coleta": "2025-12-25T00:00:00.000Z",
+          "rota": "Rota SELETIVA - Morada do Sol",
+          "placa": "SEL1A11",
+          "capacidade_kg": 6000,
+          "peso_kg": "664.10",
+          "ocupacao_pct": "11.07"
+        },
+        {
+          "id_coleta": 1189,
+          "data_coleta": "2025-12-26T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Jardim Aurora",
+          "placa": "ABC4G56",
+          "capacidade_kg": 15000,
+          "peso_kg": "1646.28",
+          "ocupacao_pct": "10.98"
+        },
+        {
+          "id_coleta": 143,
+          "data_coleta": "2025-12-29T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Alvorada",
+          "placa": "ABC3F45",
+          "capacidade_kg": 15000,
+          "peso_kg": "1533.35",
+          "ocupacao_pct": "10.22"
+        },
+        {
+          "id_coleta": 637,
+          "data_coleta": "2025-12-31T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Novo Horizonte",
+          "placa": "ABC3F45",
+          "capacidade_kg": 15000,
+          "peso_kg": "1524.20",
+          "ocupacao_pct": "10.16"
+        },
+        {
+          "id_coleta": 1085,
+          "data_coleta": "2025-12-26T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Santa Luzia",
+          "placa": "ABC2E34",
+          "capacidade_kg": 12000,
+          "peso_kg": "1110.81",
+          "ocupacao_pct": "9.26"
+        },
+        {
+          "id_coleta": 347,
+          "data_coleta": "2025-12-30T00:00:00.000Z",
+          "rota": "Rota SELETIVA - São José",
+          "placa": "SEL2B22",
+          "capacidade_kg": 6000,
+          "peso_kg": "464.14",
+          "ocupacao_pct": "7.74"
+        },
+        {
+          "id_coleta": 784,
+          "data_coleta": "2025-12-25T00:00:00.000Z",
+          "rota": "Rota SELETIVA - Santa Luzia",
+          "placa": "SEL1A11",
+          "capacidade_kg": 6000,
+          "peso_kg": "349.66",
+          "ocupacao_pct": "5.83"
+        },
+        {
+          "id_coleta": 690,
+          "data_coleta": "2025-12-31T00:00:00.000Z",
+          "rota": "Rota CONVENCIONAL - Industrial",
+          "placa": "ABC1D23",
+          "capacidade_kg": 12000,
+          "peso_kg": "595.22",
+          "ocupacao_pct": "4.96"
+        },
+        {
+          "id_coleta": 1044,
+          "data_coleta": "2025-12-25T00:00:00.000Z",
+          "rota": "Rota SELETIVA - Alvorada",
+          "placa": "SEL1A11",
+          "capacidade_kg": 6000,
+          "peso_kg": "249.82",
+          "ocupacao_pct": "4.16"
+        },
+        {
+          "id_coleta": 503,
+          "data_coleta": "2025-12-30T00:00:00.000Z",
+          "rota": "Rota SELETIVA - Industrial",
+          "placa": "SEL2B22",
+          "capacidade_kg": 6000,
+          "peso_kg": "215.89",
+          "ocupacao_pct": "3.60"
+        },
+        {
+          "id_coleta": 992,
+          "data_coleta": "2025-12-25T00:00:00.000Z",
+          "rota": "Rota SELETIVA - Novo Horizonte",
+          "placa": "SEL1A11",
+          "capacidade_kg": 6000,
+          "peso_kg": "104.03",
+          "ocupacao_pct": "1.73"
+        }
+      ]
+    },
+    {
+      "id": "O5",
+      "titulo": "Coletas concluídas por coletor na semana",
+      "leitura": "A supervisão consulta a participação de cada coletor nas viagens concluídas nos últimos sete dias completos; a soma entre coletores não representa viagens distintas.",
+      "eixo": "coletor",
+      "medida": "coletas_concluidas",
+      "sql": "SELECT f.matricula, f.nome AS coletor, COUNT(c.id_coleta) AS coletas_concluidas\nFROM oltp.funcionario f\nLEFT JOIN oltp.coleta_equipe e ON e.id_funcionario = f.id_funcionario\nLEFT JOIN oltp.coleta c ON c.id_coleta = e.id_coleta\n  AND c.status = 'CONCLUIDA'\n  AND c.data_coleta >= bi.data_referencia()::date - 7\n  AND c.data_coleta < bi.data_referencia()::date\nWHERE f.cargo = 'COLETOR'\nGROUP BY f.id_funcionario, f.matricula, f.nome\nORDER BY coletas_concluidas DESC, f.nome;",
+      "arquivo": "05_dashboard_operacional.sql",
+      "rows": [
+        {
+          "matricula": "C0007",
+          "coletor": "Coletor 07",
+          "coletas_concluidas": 5
+        },
+        {
+          "matricula": "C0005",
+          "coletor": "Coletor 05",
+          "coletas_concluidas": 4
+        },
+        {
+          "matricula": "C0002",
+          "coletor": "Coletor 02",
+          "coletas_concluidas": 3
+        },
+        {
+          "matricula": "C0006",
+          "coletor": "Coletor 06",
+          "coletas_concluidas": 3
+        },
+        {
+          "matricula": "C0008",
+          "coletor": "Coletor 08",
+          "coletas_concluidas": 3
+        },
+        {
+          "matricula": "C0009",
+          "coletor": "Coletor 09",
+          "coletas_concluidas": 3
+        },
+        {
+          "matricula": "C0011",
+          "coletor": "Coletor 11",
+          "coletas_concluidas": 3
+        },
+        {
+          "matricula": "C0018",
+          "coletor": "Coletor 18",
+          "coletas_concluidas": 3
+        },
+        {
+          "matricula": "C0003",
+          "coletor": "Coletor 03",
+          "coletas_concluidas": 2
+        },
+        {
+          "matricula": "C0004",
+          "coletor": "Coletor 04",
+          "coletas_concluidas": 2
+        },
+        {
+          "matricula": "C0010",
+          "coletor": "Coletor 10",
+          "coletas_concluidas": 2
+        },
+        {
+          "matricula": "C0012",
+          "coletor": "Coletor 12",
+          "coletas_concluidas": 2
+        },
+        {
+          "matricula": "C0013",
+          "coletor": "Coletor 13",
+          "coletas_concluidas": 2
+        },
+        {
+          "matricula": "C0016",
+          "coletor": "Coletor 16",
+          "coletas_concluidas": 2
+        },
+        {
+          "matricula": "C0001",
+          "coletor": "Coletor 01",
+          "coletas_concluidas": 1
+        },
+        {
+          "matricula": "C0014",
+          "coletor": "Coletor 14",
+          "coletas_concluidas": 1
+        },
+        {
+          "matricula": "C0015",
+          "coletor": "Coletor 15",
+          "coletas_concluidas": 1
+        },
+        {
+          "matricula": "C0017",
+          "coletor": "Coletor 17",
+          "coletas_concluidas": 0
+        }
+      ]
+    },
+    {
+      "id": "T1",
+      "titulo": "Produtividade por rota",
+      "leitura": "A coordenação de rotas identifica menor peso por quilômetro; compare também o tipo de coleta, pois convencional e seletiva têm perfis diferentes.",
+      "eixo": "rota",
+      "medida": "kg_por_km",
+      "sql": "SELECT r.nome AS rota, r.bairro, r.tipo_coleta, r.turno,\n       COUNT(*) AS viagens_planejadas, SUM(v.qtd_cancelada) AS canceladas,\n       SUM(v.peso_total_kg) AS peso_kg, SUM(v.km_percorridos) AS km,\n       ROUND(SUM(v.peso_total_kg) / NULLIF(SUM(v.km_percorridos), 0), 2) AS kg_por_km,\n       RANK() OVER (PARTITION BY r.tipo_coleta ORDER BY\n         SUM(v.peso_total_kg) / NULLIF(SUM(v.km_percorridos), 0) ASC NULLS LAST) AS posicao_menor_produtividade\nFROM dw.fato_viagem v\nJOIN dw.dim_rota r ON r.sk_rota = v.sk_rota\nJOIN dw.dim_tempo t ON t.sk_tempo = v.sk_tempo\nWHERE t.ano = 2025\nGROUP BY r.sk_rota, r.nome, r.bairro, r.tipo_coleta, r.turno\nORDER BY kg_por_km ASC NULLS LAST, r.nome;",
+      "arquivo": "06_dashboard_tatico.sql",
+      "rows": [
+        {
+          "rota": "Rota SELETIVA - Novo Horizonte",
+          "bairro": "Novo Horizonte",
+          "tipo_coleta": "SELETIVA",
+          "turno": "TARDE",
+          "viagens_planejadas": 52,
+          "canceladas": 4,
+          "peso_kg": "4317.65",
+          "km": "1936.11",
+          "kg_por_km": "2.23",
+          "posicao_menor_produtividade": 1
+        },
+        {
+          "rota": "Rota SELETIVA - Alvorada",
+          "bairro": "Alvorada",
+          "tipo_coleta": "SELETIVA",
+          "turno": "MANHA",
+          "viagens_planejadas": 52,
+          "canceladas": 4,
+          "peso_kg": "9904.05",
+          "km": "1636.91",
+          "kg_por_km": "6.05",
+          "posicao_menor_produtividade": 2
+        },
+        {
+          "rota": "Rota SELETIVA - Vila Esperança",
+          "bairro": "Vila Esperança",
+          "tipo_coleta": "SELETIVA",
+          "turno": "MANHA",
+          "viagens_planejadas": 52,
+          "canceladas": 5,
+          "peso_kg": "9104.89",
+          "km": "1372.86",
+          "kg_por_km": "6.63",
+          "posicao_menor_produtividade": 3
+        },
+        {
+          "rota": "Rota SELETIVA - Industrial",
+          "bairro": "Industrial",
+          "tipo_coleta": "SELETIVA",
+          "turno": "TARDE",
+          "viagens_planejadas": 52,
+          "canceladas": 4,
+          "peso_kg": "9345.03",
+          "km": "773.63",
+          "kg_por_km": "12.08",
+          "posicao_menor_produtividade": 4
+        },
+        {
+          "rota": "Rota SELETIVA - Cidade Nova",
+          "bairro": "Cidade Nova",
+          "tipo_coleta": "SELETIVA",
+          "turno": "MANHA",
+          "viagens_planejadas": 52,
+          "canceladas": 6,
+          "peso_kg": "14097.97",
+          "km": "1160.79",
+          "kg_por_km": "12.15",
+          "posicao_menor_produtividade": 5
+        },
+        {
+          "rota": "Rota SELETIVA - São José",
+          "bairro": "São José",
+          "tipo_coleta": "SELETIVA",
+          "turno": "NOITE",
+          "viagens_planejadas": 52,
+          "canceladas": 1,
+          "peso_kg": "21268.66",
+          "km": "1500.01",
+          "kg_por_km": "14.18",
+          "posicao_menor_produtividade": 6
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Industrial",
+          "bairro": "Industrial",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "TARDE",
+          "viagens_planejadas": 53,
+          "canceladas": 0,
+          "peso_kg": "34399.47",
+          "km": "2349.36",
+          "kg_por_km": "14.64",
+          "posicao_menor_produtividade": 1
+        },
+        {
+          "rota": "Rota SELETIVA - Santa Luzia",
+          "bairro": "Santa Luzia",
+          "tipo_coleta": "SELETIVA",
+          "turno": "NOITE",
+          "viagens_planejadas": 52,
+          "canceladas": 2,
+          "peso_kg": "11891.41",
+          "km": "772.65",
+          "kg_por_km": "15.39",
+          "posicao_menor_produtividade": 7
+        },
+        {
+          "rota": "Rota SELETIVA - Parque das Águas",
+          "bairro": "Parque das Águas",
+          "tipo_coleta": "SELETIVA",
+          "turno": "TARDE",
+          "viagens_planejadas": 52,
+          "canceladas": 0,
+          "peso_kg": "34983.91",
+          "km": "1705.55",
+          "kg_por_km": "20.51",
+          "posicao_menor_produtividade": 8
+        },
+        {
+          "rota": "Rota SELETIVA - Jardim Aurora",
+          "bairro": "Jardim Aurora",
+          "tipo_coleta": "SELETIVA",
+          "turno": "NOITE",
+          "viagens_planejadas": 52,
+          "canceladas": 3,
+          "peso_kg": "26785.08",
+          "km": "1183.60",
+          "kg_por_km": "22.63",
+          "posicao_menor_produtividade": 9
+        },
+        {
+          "rota": "Rota SELETIVA - Bela Vista",
+          "bairro": "Bela Vista",
+          "tipo_coleta": "SELETIVA",
+          "turno": "MANHA",
+          "viagens_planejadas": 52,
+          "canceladas": 6,
+          "peso_kg": "23984.78",
+          "km": "938.62",
+          "kg_por_km": "25.55",
+          "posicao_menor_produtividade": 10
+        },
+        {
+          "rota": "Rota SELETIVA - Morada do Sol",
+          "bairro": "Morada do Sol",
+          "tipo_coleta": "SELETIVA",
+          "turno": "NOITE",
+          "viagens_planejadas": 52,
+          "canceladas": 1,
+          "peso_kg": "32868.82",
+          "km": "1044.26",
+          "kg_por_km": "31.48",
+          "posicao_menor_produtividade": 11
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Alvorada",
+          "bairro": "Alvorada",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "MANHA",
+          "viagens_planejadas": 52,
+          "canceladas": 7,
+          "peso_kg": "50172.76",
+          "km": "1534.24",
+          "kg_por_km": "32.70",
+          "posicao_menor_produtividade": 2
+        },
+        {
+          "rota": "Rota SELETIVA - Centro",
+          "bairro": "Centro",
+          "tipo_coleta": "SELETIVA",
+          "turno": "TARDE",
+          "viagens_planejadas": 52,
+          "canceladas": 0,
+          "peso_kg": "35024.54",
+          "km": "1017.51",
+          "kg_por_km": "34.42",
+          "posicao_menor_produtividade": 12
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Parque das Águas",
+          "bairro": "Parque das Águas",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "TARDE",
+          "viagens_planejadas": 53,
+          "canceladas": 1,
+          "peso_kg": "61289.51",
+          "km": "1742.50",
+          "kg_por_km": "35.17",
+          "posicao_menor_produtividade": 3
+        },
+        {
+          "rota": "Rota CONVENCIONAL - São José",
+          "bairro": "São José",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "NOITE",
+          "viagens_planejadas": 52,
+          "canceladas": 3,
+          "peso_kg": "56557.97",
+          "km": "1437.69",
+          "kg_por_km": "39.34",
+          "posicao_menor_produtividade": 4
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Vila Esperança",
+          "bairro": "Vila Esperança",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "MANHA",
+          "viagens_planejadas": 52,
+          "canceladas": 4,
+          "peso_kg": "60606.51",
+          "km": "1384.39",
+          "kg_por_km": "43.78",
+          "posicao_menor_produtividade": 5
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Novo Horizonte",
+          "bairro": "Novo Horizonte",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "TARDE",
+          "viagens_planejadas": 53,
+          "canceladas": 2,
+          "peso_kg": "57011.20",
+          "km": "1274.22",
+          "kg_por_km": "44.74",
+          "posicao_menor_produtividade": 6
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Cidade Nova",
+          "bairro": "Cidade Nova",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "MANHA",
+          "viagens_planejadas": 52,
+          "canceladas": 8,
+          "peso_kg": "53906.89",
+          "km": "1117.11",
+          "kg_por_km": "48.26",
+          "posicao_menor_produtividade": 7
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Jardim Aurora",
+          "bairro": "Jardim Aurora",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "NOITE",
+          "viagens_planejadas": 52,
+          "canceladas": 3,
+          "peso_kg": "60158.58",
+          "km": "1193.09",
+          "kg_por_km": "50.42",
+          "posicao_menor_produtividade": 8
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Morada do Sol",
+          "bairro": "Morada do Sol",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "NOITE",
+          "viagens_planejadas": 52,
+          "canceladas": 1,
+          "peso_kg": "61054.77",
+          "km": "1045.29",
+          "kg_por_km": "58.41",
+          "posicao_menor_produtividade": 9
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Santa Luzia",
+          "bairro": "Santa Luzia",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "NOITE",
+          "viagens_planejadas": 52,
+          "canceladas": 2,
+          "peso_kg": "47890.90",
+          "km": "786.26",
+          "kg_por_km": "60.91",
+          "posicao_menor_produtividade": 10
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Centro",
+          "bairro": "Centro",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "TARDE",
+          "viagens_planejadas": 53,
+          "canceladas": 4,
+          "peso_kg": "71111.32",
+          "km": "961.51",
+          "kg_por_km": "73.96",
+          "posicao_menor_produtividade": 11
+        },
+        {
+          "rota": "Rota CONVENCIONAL - Bela Vista",
+          "bairro": "Bela Vista",
+          "tipo_coleta": "CONVENCIONAL",
+          "turno": "MANHA",
+          "viagens_planejadas": 52,
+          "canceladas": 6,
+          "peso_kg": "72584.10",
+          "km": "928.43",
+          "kg_por_km": "78.18",
+          "posicao_menor_produtividade": 12
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "titulo": "Cancelamentos por turno e dia da semana",
+      "leitura": "A coordenação compara a proporção de viagens canceladas sobre todas as viagens de cada turno e dia; volume e percentual devem ser lidos juntos.",
+      "eixo": "turno_dia",
+      "medida": "cancelamento_pct",
+      "sql": "SELECT r.turno || ' / ' || t.nome_dia AS turno_dia, r.turno,\n       t.dia_semana, t.nome_dia, COUNT(*) AS viagens_planejadas,\n       SUM(v.qtd_cancelada) AS canceladas,\n       ROUND(100.0 * SUM(v.qtd_cancelada) / COUNT(*), 2) AS cancelamento_pct\nFROM dw.fato_viagem v\nJOIN dw.dim_rota r ON r.sk_rota = v.sk_rota\nJOIN dw.dim_tempo t ON t.sk_tempo = v.sk_tempo\nWHERE t.ano = 2025\nGROUP BY r.turno, t.dia_semana, t.nome_dia\nORDER BY cancelamento_pct DESC, r.turno, t.dia_semana;",
+      "arquivo": "06_dashboard_tatico.sql",
+      "rows": [
+        {
+          "turno_dia": "MANHA / Segunda",
+          "turno": "MANHA",
+          "dia_semana": 1,
+          "nome_dia": "Segunda",
+          "viagens_planejadas": 208,
+          "canceladas": 25,
+          "cancelamento_pct": "12.02"
+        },
+        {
+          "turno_dia": "MANHA / Terça",
+          "turno": "MANHA",
+          "dia_semana": 2,
+          "nome_dia": "Terça",
+          "viagens_planejadas": 104,
+          "canceladas": 12,
+          "cancelamento_pct": "11.54"
+        },
+        {
+          "turno_dia": "MANHA / Quinta",
+          "turno": "MANHA",
+          "dia_semana": 4,
+          "nome_dia": "Quinta",
+          "viagens_planejadas": 104,
+          "canceladas": 9,
+          "cancelamento_pct": "8.65"
+        },
+        {
+          "turno_dia": "NOITE / Sexta",
+          "turno": "NOITE",
+          "dia_semana": 5,
+          "nome_dia": "Sexta",
+          "viagens_planejadas": 208,
+          "canceladas": 9,
+          "cancelamento_pct": "4.33"
+        },
+        {
+          "turno_dia": "NOITE / Terça",
+          "turno": "NOITE",
+          "dia_semana": 2,
+          "nome_dia": "Terça",
+          "viagens_planejadas": 104,
+          "canceladas": 4,
+          "cancelamento_pct": "3.85"
+        },
+        {
+          "turno_dia": "TARDE / Terça",
+          "turno": "TARDE",
+          "dia_semana": 2,
+          "nome_dia": "Terça",
+          "viagens_planejadas": 104,
+          "canceladas": 4,
+          "cancelamento_pct": "3.85"
+        },
+        {
+          "turno_dia": "TARDE / Quinta",
+          "turno": "TARDE",
+          "dia_semana": 4,
+          "nome_dia": "Quinta",
+          "viagens_planejadas": 104,
+          "canceladas": 4,
+          "cancelamento_pct": "3.85"
+        },
+        {
+          "turno_dia": "TARDE / Quarta",
+          "turno": "TARDE",
+          "dia_semana": 3,
+          "nome_dia": "Quarta",
+          "viagens_planejadas": 212,
+          "canceladas": 7,
+          "cancelamento_pct": "3.30"
+        },
+        {
+          "turno_dia": "NOITE / Quinta",
+          "turno": "NOITE",
+          "dia_semana": 4,
+          "nome_dia": "Quinta",
+          "viagens_planejadas": 104,
+          "canceladas": 3,
+          "cancelamento_pct": "2.88"
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "titulo": "Tempo de resolução por tipo e região",
+      "leitura": "O atendimento compara a média apenas das resolvidas, incluindo fechamentos posteriores a 2025, e o total sem resolução no estado final da base; NULL significa ausência de resolução observada.",
+      "eixo": "tipo_regiao",
+      "medida": "horas_medias",
+      "sql": "SELECT o.tipo_ocorrencia || ' / ' || l.regiao AS tipo_regiao,\n       o.tipo_ocorrencia, l.regiao, COUNT(*) AS ocorrencias,\n       COUNT(f.tempo_resolucao_horas) AS resolvidas,\n       COUNT(*) - COUNT(f.tempo_resolucao_horas) AS sem_resolucao,\n       ROUND(AVG(f.tempo_resolucao_horas), 2) AS horas_medias,\n       MAX(f.tempo_resolucao_horas) AS horas_maximas\nFROM dw.fato_ocorrencia f\nJOIN dw.dim_ocorrencia o ON o.sk_ocorrencia = f.sk_ocorrencia\nJOIN dw.dim_local l ON l.sk_local = f.sk_local\nJOIN dw.dim_tempo t ON t.sk_tempo = f.sk_tempo_abertura\nWHERE t.ano = 2025\nGROUP BY o.tipo_ocorrencia, l.regiao\nORDER BY horas_medias DESC NULLS LAST, o.tipo_ocorrencia, l.regiao;",
+      "arquivo": "06_dashboard_tatico.sql",
+      "rows": [
+        {
+          "tipo_regiao": "SOLICITACAO_VOLUMOSO / OESTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "regiao": "OESTE",
+          "ocorrencias": 17,
+          "resolvidas": 15,
+          "sem_resolucao": 2,
+          "horas_medias": "176.87",
+          "horas_maximas": "236.00"
+        },
+        {
+          "tipo_regiao": "SOLICITACAO_VOLUMOSO / SUL",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "regiao": "SUL",
+          "ocorrencias": 26,
+          "resolvidas": 26,
+          "sem_resolucao": 0,
+          "horas_medias": "158.85",
+          "horas_maximas": "211.00"
+        },
+        {
+          "tipo_regiao": "SOLICITACAO_VOLUMOSO / LESTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "regiao": "LESTE",
+          "ocorrencias": 30,
+          "resolvidas": 27,
+          "sem_resolucao": 3,
+          "horas_medias": "145.22",
+          "horas_maximas": "482.00"
+        },
+        {
+          "tipo_regiao": "CONTAINER_DANIFICADO / OESTE",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "regiao": "OESTE",
+          "ocorrencias": 11,
+          "resolvidas": 10,
+          "sem_resolucao": 1,
+          "horas_medias": "137.70",
+          "horas_maximas": "183.00"
+        },
+        {
+          "tipo_regiao": "CONTAINER_DANIFICADO / SUL",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "regiao": "SUL",
+          "ocorrencias": 26,
+          "resolvidas": 24,
+          "sem_resolucao": 2,
+          "horas_medias": "121.17",
+          "horas_maximas": "171.00"
+        },
+        {
+          "tipo_regiao": "SOLICITACAO_VOLUMOSO / NORTE",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "regiao": "NORTE",
+          "ocorrencias": 44,
+          "resolvidas": 41,
+          "sem_resolucao": 3,
+          "horas_medias": "114.83",
+          "horas_maximas": "166.00"
+        },
+        {
+          "tipo_regiao": "CONTAINER_DANIFICADO / LESTE",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "regiao": "LESTE",
+          "ocorrencias": 23,
+          "resolvidas": 23,
+          "sem_resolucao": 0,
+          "horas_medias": "100.35",
+          "horas_maximas": "147.00"
+        },
+        {
+          "tipo_regiao": "CONTAINER_DANIFICADO / NORTE",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "regiao": "NORTE",
+          "ocorrencias": 52,
+          "resolvidas": 49,
+          "sem_resolucao": 3,
+          "horas_medias": "95.02",
+          "horas_maximas": "133.00"
+        },
+        {
+          "tipo_regiao": "DESCARTE_IRREGULAR / OESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "regiao": "OESTE",
+          "ocorrencias": 17,
+          "resolvidas": 17,
+          "sem_resolucao": 0,
+          "horas_medias": "94.29",
+          "horas_maximas": "256.00"
+        },
+        {
+          "tipo_regiao": "SOLICITACAO_VOLUMOSO / CENTRO",
+          "tipo_ocorrencia": "SOLICITACAO_VOLUMOSO",
+          "regiao": "CENTRO",
+          "ocorrencias": 6,
+          "resolvidas": 5,
+          "sem_resolucao": 1,
+          "horas_medias": "83.20",
+          "horas_maximas": "112.00"
+        },
+        {
+          "tipo_regiao": "DESCARTE_IRREGULAR / SUL",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "regiao": "SUL",
+          "ocorrencias": 32,
+          "resolvidas": 29,
+          "sem_resolucao": 3,
+          "horas_medias": "79.93",
+          "horas_maximas": "242.00"
+        },
+        {
+          "tipo_regiao": "DESCARTE_IRREGULAR / LESTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "regiao": "LESTE",
+          "ocorrencias": 44,
+          "resolvidas": 34,
+          "sem_resolucao": 10,
+          "horas_medias": "75.41",
+          "horas_maximas": "365.00"
+        },
+        {
+          "tipo_regiao": "CONTAINER_DANIFICADO / CENTRO",
+          "tipo_ocorrencia": "CONTAINER_DANIFICADO",
+          "regiao": "CENTRO",
+          "ocorrencias": 12,
+          "resolvidas": 12,
+          "sem_resolucao": 0,
+          "horas_medias": "69.75",
+          "horas_maximas": "88.00"
+        },
+        {
+          "tipo_regiao": "OUTROS / OESTE",
+          "tipo_ocorrencia": "OUTROS",
+          "regiao": "OESTE",
+          "ocorrencias": 11,
+          "resolvidas": 10,
+          "sem_resolucao": 1,
+          "horas_medias": "67.30",
+          "horas_maximas": "97.00"
+        },
+        {
+          "tipo_regiao": "OUTROS / SUL",
+          "tipo_ocorrencia": "OUTROS",
+          "regiao": "SUL",
+          "ocorrencias": 30,
+          "resolvidas": 28,
+          "sem_resolucao": 2,
+          "horas_medias": "61.00",
+          "horas_maximas": "86.00"
+        },
+        {
+          "tipo_regiao": "DESCARTE_IRREGULAR / NORTE",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "regiao": "NORTE",
+          "ocorrencias": 22,
+          "resolvidas": 20,
+          "sem_resolucao": 2,
+          "horas_medias": "56.60",
+          "horas_maximas": "79.00"
+        },
+        {
+          "tipo_regiao": "OUTROS / NORTE",
+          "tipo_ocorrencia": "OUTROS",
+          "regiao": "NORTE",
+          "ocorrencias": 26,
+          "resolvidas": 23,
+          "sem_resolucao": 3,
+          "horas_medias": "56.17",
+          "horas_maximas": "160.00"
+        },
+        {
+          "tipo_regiao": "OUTROS / LESTE",
+          "tipo_ocorrencia": "OUTROS",
+          "regiao": "LESTE",
+          "ocorrencias": 20,
+          "resolvidas": 19,
+          "sem_resolucao": 1,
+          "horas_medias": "52.74",
+          "horas_maximas": "73.00"
+        },
+        {
+          "tipo_regiao": "OUTROS / CENTRO",
+          "tipo_ocorrencia": "OUTROS",
+          "regiao": "CENTRO",
+          "ocorrencias": 10,
+          "resolvidas": 8,
+          "sem_resolucao": 2,
+          "horas_medias": "46.88",
+          "horas_maximas": "140.00"
+        },
+        {
+          "tipo_regiao": "DESCARTE_IRREGULAR / CENTRO",
+          "tipo_ocorrencia": "DESCARTE_IRREGULAR",
+          "regiao": "CENTRO",
+          "ocorrencias": 8,
+          "resolvidas": 8,
+          "sem_resolucao": 0,
+          "horas_medias": "44.50",
+          "horas_maximas": "57.00"
+        },
+        {
+          "tipo_regiao": "COLETA_NAO_REALIZADA / OESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "regiao": "OESTE",
+          "ocorrencias": 24,
+          "resolvidas": 22,
+          "sem_resolucao": 2,
+          "horas_medias": "35.05",
+          "horas_maximas": "50.00"
+        },
+        {
+          "tipo_regiao": "COLETA_NAO_REALIZADA / LESTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "regiao": "LESTE",
+          "ocorrencias": 50,
+          "resolvidas": 42,
+          "sem_resolucao": 8,
+          "horas_medias": "29.88",
+          "horas_maximas": "124.00"
+        },
+        {
+          "tipo_regiao": "COLETA_NAO_REALIZADA / SUL",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "regiao": "SUL",
+          "ocorrencias": 10,
+          "resolvidas": 10,
+          "sem_resolucao": 0,
+          "horas_medias": "29.40",
+          "horas_maximas": "42.00"
+        },
+        {
+          "tipo_regiao": "COLETA_NAO_REALIZADA / NORTE",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "regiao": "NORTE",
+          "ocorrencias": 46,
+          "resolvidas": 42,
+          "sem_resolucao": 4,
+          "horas_medias": "25.71",
+          "horas_maximas": "97.00"
+        },
+        {
+          "tipo_regiao": "COLETA_NAO_REALIZADA / CENTRO",
+          "tipo_ocorrencia": "COLETA_NAO_REALIZADA",
+          "regiao": "CENTRO",
+          "ocorrencias": 3,
+          "resolvidas": 3,
+          "sem_resolucao": 0,
+          "horas_medias": "20.00",
+          "horas_maximas": "22.00"
+        }
+      ]
+    },
+    {
+      "id": "T4",
+      "titulo": "Cancelamentos e idade dos veículos",
+      "leitura": "A frota compara veículos e idade no ano analisado; associação entre idade e cancelamentos não comprova defeito mecânico ou causalidade.",
+      "eixo": "placa",
+      "medida": "cancelamento_pct",
+      "sql": "SELECT v.placa, v.tipo, v.ano_fabricacao, 2025 - v.ano_fabricacao AS idade_anos,\n       COUNT(*) AS viagens_planejadas, SUM(f.qtd_cancelada) AS canceladas,\n       ROUND(100.0 * SUM(f.qtd_cancelada) / COUNT(*), 2) AS cancelamento_pct\nFROM dw.fato_viagem f\nJOIN dw.dim_veiculo v ON v.sk_veiculo = f.sk_veiculo\nJOIN dw.dim_tempo t ON t.sk_tempo = f.sk_tempo\nWHERE t.ano = 2025\nGROUP BY v.sk_veiculo, v.placa, v.tipo, v.ano_fabricacao\nORDER BY cancelamento_pct DESC, v.placa;",
+      "arquivo": "06_dashboard_tatico.sql",
+      "rows": [
+        {
+          "placa": "ABC4G56",
+          "tipo": "COMPACTADOR",
+          "ano_fabricacao": 2016,
+          "idade_anos": 9,
+          "viagens_planejadas": 156,
+          "canceladas": 16,
+          "cancelamento_pct": "10.26"
+        },
+        {
+          "placa": "SEL2B22",
+          "tipo": "BAU_SELETIVA",
+          "ano_fabricacao": 2023,
+          "idade_anos": 2,
+          "viagens_planejadas": 312,
+          "canceladas": 24,
+          "cancelamento_pct": "7.69"
+        },
+        {
+          "placa": "ABC2E34",
+          "tipo": "COMPACTADOR",
+          "ano_fabricacao": 2020,
+          "idade_anos": 5,
+          "viagens_planejadas": 156,
+          "canceladas": 11,
+          "cancelamento_pct": "7.05"
+        },
+        {
+          "placa": "ABC1D23",
+          "tipo": "COMPACTADOR",
+          "ano_fabricacao": 2019,
+          "idade_anos": 6,
+          "viagens_planejadas": 158,
+          "canceladas": 7,
+          "cancelamento_pct": "4.43"
+        },
+        {
+          "placa": "ABC3F45",
+          "tipo": "COMPACTADOR",
+          "ano_fabricacao": 2021,
+          "idade_anos": 4,
+          "viagens_planejadas": 158,
+          "canceladas": 7,
+          "cancelamento_pct": "4.43"
+        },
+        {
+          "placa": "SEL1A11",
+          "tipo": "BAU_SELETIVA",
+          "ano_fabricacao": 2022,
+          "idade_anos": 3,
+          "viagens_planejadas": 312,
+          "canceladas": 12,
+          "cancelamento_pct": "3.85"
+        }
+      ]
+    },
+    {
+      "id": "T5",
+      "titulo": "Produtividade e cancelamentos por motorista",
+      "leitura": "A coordenação compara resultados por motorista e tipo de coleta; diferenças de rota, turno e veículo precisam ser investigadas antes de avaliar desempenho individual.",
+      "eixo": "motorista_tipo",
+      "medida": "kg_por_km",
+      "sql": "SELECT m.nome || ' / ' || r.tipo_coleta AS motorista_tipo,\n       m.matricula, m.nome AS motorista, r.tipo_coleta,\n       COUNT(*) AS viagens_planejadas, SUM(f.qtd_cancelada) AS canceladas,\n       ROUND(100.0 * SUM(f.qtd_cancelada) / COUNT(*), 2) AS cancelamento_pct,\n       ROUND(SUM(f.peso_total_kg) / NULLIF(SUM(f.km_percorridos), 0), 2) AS kg_por_km,\n       ROUND(AVG(f.duracao_min), 2) AS duracao_media_min\nFROM dw.fato_viagem f\nJOIN dw.dim_funcionario m ON m.sk_funcionario = f.sk_motorista\nJOIN dw.dim_rota r ON r.sk_rota = f.sk_rota\nJOIN dw.dim_tempo t ON t.sk_tempo = f.sk_tempo\nWHERE t.ano = 2025\nGROUP BY m.sk_funcionario, m.matricula, m.nome, r.tipo_coleta\nORDER BY r.tipo_coleta, kg_por_km ASC NULLS LAST, m.nome;",
+      "arquivo": "06_dashboard_tatico.sql",
+      "rows": [
+        {
+          "motorista_tipo": "Rogério Alves / CONVENCIONAL",
+          "matricula": "M0004",
+          "motorista": "Rogério Alves",
+          "tipo_coleta": "CONVENCIONAL",
+          "viagens_planejadas": 96,
+          "canceladas": 8,
+          "cancelamento_pct": "8.33",
+          "kg_por_km": "41.99",
+          "duracao_media_min": "226.14"
+        },
+        {
+          "motorista_tipo": "Carlos Silva / CONVENCIONAL",
+          "matricula": "M0001",
+          "motorista": "Carlos Silva",
+          "tipo_coleta": "CONVENCIONAL",
+          "viagens_planejadas": 108,
+          "canceladas": 4,
+          "cancelamento_pct": "3.70",
+          "kg_por_km": "42.74",
+          "duracao_media_min": "222.49"
+        },
+        {
+          "motorista_tipo": "Jorge Pinto / CONVENCIONAL",
+          "matricula": "M0006",
+          "motorista": "Jorge Pinto",
+          "tipo_coleta": "CONVENCIONAL",
+          "viagens_planejadas": 108,
+          "canceladas": 8,
+          "cancelamento_pct": "7.41",
+          "kg_por_km": "43.22",
+          "duracao_media_min": "226.12"
+        },
+        {
+          "motorista_tipo": "Antônio Reis / CONVENCIONAL",
+          "matricula": "M0005",
+          "motorista": "Antônio Reis",
+          "tipo_coleta": "CONVENCIONAL",
+          "viagens_planejadas": 112,
+          "canceladas": 6,
+          "cancelamento_pct": "5.36",
+          "kg_por_km": "43.70",
+          "duracao_media_min": "224.66"
+        },
+        {
+          "motorista_tipo": "Paulo Lima / CONVENCIONAL",
+          "matricula": "M0003",
+          "motorista": "Paulo Lima",
+          "tipo_coleta": "CONVENCIONAL",
+          "viagens_planejadas": 96,
+          "canceladas": 4,
+          "cancelamento_pct": "4.17",
+          "kg_por_km": "43.77",
+          "duracao_media_min": "224.96"
+        },
+        {
+          "motorista_tipo": "Marcos Souza / CONVENCIONAL",
+          "matricula": "M0002",
+          "motorista": "Marcos Souza",
+          "tipo_coleta": "CONVENCIONAL",
+          "viagens_planejadas": 108,
+          "canceladas": 11,
+          "cancelamento_pct": "10.19",
+          "kg_por_km": "46.07",
+          "duracao_media_min": "224.37"
+        },
+        {
+          "motorista_tipo": "Carlos Silva / SELETIVA",
+          "matricula": "M0001",
+          "motorista": "Carlos Silva",
+          "tipo_coleta": "SELETIVA",
+          "viagens_planejadas": 96,
+          "canceladas": 0,
+          "cancelamento_pct": "0.00",
+          "kg_por_km": "14.92",
+          "duracao_media_min": "220.68"
+        },
+        {
+          "motorista_tipo": "Paulo Lima / SELETIVA",
+          "matricula": "M0003",
+          "motorista": "Paulo Lima",
+          "tipo_coleta": "SELETIVA",
+          "viagens_planejadas": 108,
+          "canceladas": 7,
+          "cancelamento_pct": "6.48",
+          "kg_por_km": "15.35",
+          "duracao_media_min": "224.60"
+        },
+        {
+          "motorista_tipo": "Jorge Pinto / SELETIVA",
+          "matricula": "M0006",
+          "motorista": "Jorge Pinto",
+          "tipo_coleta": "SELETIVA",
+          "viagens_planejadas": 96,
+          "canceladas": 8,
+          "cancelamento_pct": "8.33",
+          "kg_por_km": "15.42",
+          "duracao_media_min": "224.33"
+        },
+        {
+          "motorista_tipo": "Antônio Reis / SELETIVA",
+          "matricula": "M0005",
+          "motorista": "Antônio Reis",
+          "tipo_coleta": "SELETIVA",
+          "viagens_planejadas": 108,
+          "canceladas": 5,
+          "cancelamento_pct": "4.63",
+          "kg_por_km": "15.62",
+          "duracao_media_min": "225.56"
+        },
+        {
+          "motorista_tipo": "Marcos Souza / SELETIVA",
+          "matricula": "M0002",
+          "motorista": "Marcos Souza",
+          "tipo_coleta": "SELETIVA",
+          "viagens_planejadas": 108,
+          "canceladas": 7,
+          "cancelamento_pct": "6.48",
+          "kg_por_km": "15.82",
+          "duracao_media_min": "225.32"
+        },
+        {
+          "motorista_tipo": "Rogério Alves / SELETIVA",
+          "matricula": "M0004",
+          "motorista": "Rogério Alves",
+          "tipo_coleta": "SELETIVA",
+          "viagens_planejadas": 108,
+          "canceladas": 9,
+          "cancelamento_pct": "8.33",
+          "kg_por_km": "16.02",
+          "duracao_media_min": "227.63"
+        }
+      ]
+    },
+    {
+      "id": "E1",
+      "titulo": "Evolução mensal por tipo de resíduo",
+      "leitura": "A secretaria acompanha toneladas e variação sobre o mês anterior; meses sem coleta ficam com zero e o primeiro mês fica sem comparação.",
+      "eixo": "mes_tipo",
+      "medida": "toneladas",
+      "sql": "WITH mensal AS (\n  SELECT t.mes, tr.sk_tipo_residuo, SUM(f.peso_kg) / 1000 AS toneladas\n  FROM dw.fato_coleta f\n  JOIN dw.dim_tempo t ON t.sk_tempo = f.sk_tempo\n  JOIN dw.dim_tipo_residuo tr ON tr.sk_tipo_residuo = f.sk_tipo_residuo\n  WHERE t.ano = 2025 GROUP BY t.mes, tr.sk_tipo_residuo\n), grade AS (\n  SELECT m.mes, tr.sk_tipo_residuo, tr.nome AS tipo_residuo,\n         COALESCE(p.toneladas, 0) AS toneladas\n  FROM generate_series(1, 12) m(mes) CROSS JOIN dw.dim_tipo_residuo tr\n  LEFT JOIN mensal p ON p.mes = m.mes AND p.sk_tipo_residuo = tr.sk_tipo_residuo\n), evolucao AS (\n  SELECT *, LAG(toneladas) OVER (PARTITION BY sk_tipo_residuo ORDER BY mes) AS anterior\n  FROM grade\n)\nSELECT mes, tipo_residuo, LPAD(mes::text, 2, '0') || ' / ' || tipo_residuo AS mes_tipo,\n       ROUND(toneladas, 3) AS toneladas,\n       ROUND(100 * (toneladas - anterior) / NULLIF(anterior, 0), 2) AS variacao_mensal_pct\nFROM evolucao ORDER BY mes, tipo_residuo;",
+      "arquivo": "07_dashboard_estrategico.sql",
+      "rows": [
+        {
+          "mes": 1,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "01 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 1,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "01 / Metal",
+          "toneladas": "4.885",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 1,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "01 / Orgânico",
+          "toneladas": "30.979",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 1,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "01 / Papel e papelão",
+          "toneladas": "4.727",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 1,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "01 / Plástico",
+          "toneladas": "5.237",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 1,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "01 / Rejeito comum",
+          "toneladas": "28.762",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 1,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "01 / Vidro",
+          "toneladas": "4.887",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 1,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "01 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 2,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "02 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 2,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "02 / Metal",
+          "toneladas": "3.758",
+          "variacao_mensal_pct": "-23.07"
+        },
+        {
+          "mes": 2,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "02 / Orgânico",
+          "toneladas": "19.007",
+          "variacao_mensal_pct": "-38.65"
+        },
+        {
+          "mes": 2,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "02 / Papel e papelão",
+          "toneladas": "3.835",
+          "variacao_mensal_pct": "-18.87"
+        },
+        {
+          "mes": 2,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "02 / Plástico",
+          "toneladas": "3.722",
+          "variacao_mensal_pct": "-28.92"
+        },
+        {
+          "mes": 2,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "02 / Rejeito comum",
+          "toneladas": "18.834",
+          "variacao_mensal_pct": "-34.52"
+        },
+        {
+          "mes": 2,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "02 / Vidro",
+          "toneladas": "3.579",
+          "variacao_mensal_pct": "-26.76"
+        },
+        {
+          "mes": 2,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "02 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 3,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "03 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 3,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "03 / Metal",
+          "toneladas": "4.420",
+          "variacao_mensal_pct": "17.62"
+        },
+        {
+          "mes": 3,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "03 / Orgânico",
+          "toneladas": "29.906",
+          "variacao_mensal_pct": "57.34"
+        },
+        {
+          "mes": 3,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "03 / Papel e papelão",
+          "toneladas": "4.750",
+          "variacao_mensal_pct": "23.86"
+        },
+        {
+          "mes": 3,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "03 / Plástico",
+          "toneladas": "4.292",
+          "variacao_mensal_pct": "15.31"
+        },
+        {
+          "mes": 3,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "03 / Rejeito comum",
+          "toneladas": "27.238",
+          "variacao_mensal_pct": "44.63"
+        },
+        {
+          "mes": 3,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "03 / Vidro",
+          "toneladas": "4.687",
+          "variacao_mensal_pct": "30.96"
+        },
+        {
+          "mes": 3,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "03 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 4,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "04 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 4,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "04 / Metal",
+          "toneladas": "4.921",
+          "variacao_mensal_pct": "11.34"
+        },
+        {
+          "mes": 4,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "04 / Orgânico",
+          "toneladas": "26.931",
+          "variacao_mensal_pct": "-9.95"
+        },
+        {
+          "mes": 4,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "04 / Papel e papelão",
+          "toneladas": "5.005",
+          "variacao_mensal_pct": "5.36"
+        },
+        {
+          "mes": 4,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "04 / Plástico",
+          "toneladas": "4.561",
+          "variacao_mensal_pct": "6.27"
+        },
+        {
+          "mes": 4,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "04 / Rejeito comum",
+          "toneladas": "25.562",
+          "variacao_mensal_pct": "-6.15"
+        },
+        {
+          "mes": 4,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "04 / Vidro",
+          "toneladas": "4.417",
+          "variacao_mensal_pct": "-5.76"
+        },
+        {
+          "mes": 4,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "04 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 5,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "05 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 5,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "05 / Metal",
+          "toneladas": "4.820",
+          "variacao_mensal_pct": "-2.06"
+        },
+        {
+          "mes": 5,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "05 / Orgânico",
+          "toneladas": "27.659",
+          "variacao_mensal_pct": "2.71"
+        },
+        {
+          "mes": 5,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "05 / Papel e papelão",
+          "toneladas": "4.728",
+          "variacao_mensal_pct": "-5.53"
+        },
+        {
+          "mes": 5,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "05 / Plástico",
+          "toneladas": "4.859",
+          "variacao_mensal_pct": "6.54"
+        },
+        {
+          "mes": 5,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "05 / Rejeito comum",
+          "toneladas": "25.117",
+          "variacao_mensal_pct": "-1.74"
+        },
+        {
+          "mes": 5,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "05 / Vidro",
+          "toneladas": "5.141",
+          "variacao_mensal_pct": "16.40"
+        },
+        {
+          "mes": 5,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "05 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 6,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "06 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 6,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "06 / Metal",
+          "toneladas": "4.202",
+          "variacao_mensal_pct": "-12.82"
+        },
+        {
+          "mes": 6,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "06 / Orgânico",
+          "toneladas": "29.098",
+          "variacao_mensal_pct": "5.20"
+        },
+        {
+          "mes": 6,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "06 / Papel e papelão",
+          "toneladas": "4.104",
+          "variacao_mensal_pct": "-13.20"
+        },
+        {
+          "mes": 6,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "06 / Plástico",
+          "toneladas": "4.326",
+          "variacao_mensal_pct": "-10.98"
+        },
+        {
+          "mes": 6,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "06 / Rejeito comum",
+          "toneladas": "25.962",
+          "variacao_mensal_pct": "3.37"
+        },
+        {
+          "mes": 6,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "06 / Vidro",
+          "toneladas": "4.232",
+          "variacao_mensal_pct": "-17.68"
+        },
+        {
+          "mes": 6,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "06 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 7,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "07 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 7,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "07 / Metal",
+          "toneladas": "5.774",
+          "variacao_mensal_pct": "37.41"
+        },
+        {
+          "mes": 7,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "07 / Orgânico",
+          "toneladas": "29.301",
+          "variacao_mensal_pct": "0.70"
+        },
+        {
+          "mes": 7,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "07 / Papel e papelão",
+          "toneladas": "5.946",
+          "variacao_mensal_pct": "44.89"
+        },
+        {
+          "mes": 7,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "07 / Plástico",
+          "toneladas": "5.467",
+          "variacao_mensal_pct": "26.38"
+        },
+        {
+          "mes": 7,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "07 / Rejeito comum",
+          "toneladas": "27.608",
+          "variacao_mensal_pct": "6.34"
+        },
+        {
+          "mes": 7,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "07 / Vidro",
+          "toneladas": "5.912",
+          "variacao_mensal_pct": "39.69"
+        },
+        {
+          "mes": 7,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "07 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 8,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "08 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 8,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "08 / Metal",
+          "toneladas": "4.219",
+          "variacao_mensal_pct": "-26.92"
+        },
+        {
+          "mes": 8,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "08 / Orgânico",
+          "toneladas": "26.916",
+          "variacao_mensal_pct": "-8.14"
+        },
+        {
+          "mes": 8,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "08 / Papel e papelão",
+          "toneladas": "4.576",
+          "variacao_mensal_pct": "-23.05"
+        },
+        {
+          "mes": 8,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "08 / Plástico",
+          "toneladas": "4.125",
+          "variacao_mensal_pct": "-24.54"
+        },
+        {
+          "mes": 8,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "08 / Rejeito comum",
+          "toneladas": "29.450",
+          "variacao_mensal_pct": "6.67"
+        },
+        {
+          "mes": 8,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "08 / Vidro",
+          "toneladas": "4.213",
+          "variacao_mensal_pct": "-28.74"
+        },
+        {
+          "mes": 8,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "08 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 9,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "09 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 9,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "09 / Metal",
+          "toneladas": "4.651",
+          "variacao_mensal_pct": "10.22"
+        },
+        {
+          "mes": 9,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "09 / Orgânico",
+          "toneladas": "31.063",
+          "variacao_mensal_pct": "15.41"
+        },
+        {
+          "mes": 9,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "09 / Papel e papelão",
+          "toneladas": "5.120",
+          "variacao_mensal_pct": "11.89"
+        },
+        {
+          "mes": 9,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "09 / Plástico",
+          "toneladas": "5.016",
+          "variacao_mensal_pct": "21.59"
+        },
+        {
+          "mes": 9,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "09 / Rejeito comum",
+          "toneladas": "27.214",
+          "variacao_mensal_pct": "-7.59"
+        },
+        {
+          "mes": 9,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "09 / Vidro",
+          "toneladas": "5.071",
+          "variacao_mensal_pct": "20.38"
+        },
+        {
+          "mes": 9,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "09 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 10,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "10 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 10,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "10 / Metal",
+          "toneladas": "4.915",
+          "variacao_mensal_pct": "5.68"
+        },
+        {
+          "mes": 10,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "10 / Orgânico",
+          "toneladas": "32.686",
+          "variacao_mensal_pct": "5.22"
+        },
+        {
+          "mes": 10,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "10 / Papel e papelão",
+          "toneladas": "5.226",
+          "variacao_mensal_pct": "2.07"
+        },
+        {
+          "mes": 10,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "10 / Plástico",
+          "toneladas": "5.284",
+          "variacao_mensal_pct": "5.34"
+        },
+        {
+          "mes": 10,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "10 / Rejeito comum",
+          "toneladas": "31.836",
+          "variacao_mensal_pct": "16.98"
+        },
+        {
+          "mes": 10,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "10 / Vidro",
+          "toneladas": "5.410",
+          "variacao_mensal_pct": "6.67"
+        },
+        {
+          "mes": 10,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "10 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 11,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "11 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 11,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "11 / Metal",
+          "toneladas": "4.707",
+          "variacao_mensal_pct": "-4.22"
+        },
+        {
+          "mes": 11,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "11 / Orgânico",
+          "toneladas": "27.878",
+          "variacao_mensal_pct": "-14.71"
+        },
+        {
+          "mes": 11,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "11 / Papel e papelão",
+          "toneladas": "4.823",
+          "variacao_mensal_pct": "-7.70"
+        },
+        {
+          "mes": 11,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "11 / Plástico",
+          "toneladas": "4.682",
+          "variacao_mensal_pct": "-11.40"
+        },
+        {
+          "mes": 11,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "11 / Rejeito comum",
+          "toneladas": "26.335",
+          "variacao_mensal_pct": "-17.28"
+        },
+        {
+          "mes": 11,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "11 / Vidro",
+          "toneladas": "4.596",
+          "variacao_mensal_pct": "-15.05"
+        },
+        {
+          "mes": 11,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "11 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 12,
+          "tipo_residuo": "Eletroeletrônico e pilhas",
+          "mes_tipo": "12 / Eletroeletrônico e pilhas",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        },
+        {
+          "mes": 12,
+          "tipo_residuo": "Metal",
+          "mes_tipo": "12 / Metal",
+          "toneladas": "6.459",
+          "variacao_mensal_pct": "37.21"
+        },
+        {
+          "mes": 12,
+          "tipo_residuo": "Orgânico",
+          "mes_tipo": "12 / Orgânico",
+          "toneladas": "43.141",
+          "variacao_mensal_pct": "54.75"
+        },
+        {
+          "mes": 12,
+          "tipo_residuo": "Papel e papelão",
+          "mes_tipo": "12 / Papel e papelão",
+          "toneladas": "6.764",
+          "variacao_mensal_pct": "40.24"
+        },
+        {
+          "mes": 12,
+          "tipo_residuo": "Plástico",
+          "mes_tipo": "12 / Plástico",
+          "toneladas": "6.145",
+          "variacao_mensal_pct": "31.27"
+        },
+        {
+          "mes": 12,
+          "tipo_residuo": "Rejeito comum",
+          "mes_tipo": "12 / Rejeito comum",
+          "toneladas": "38.264",
+          "variacao_mensal_pct": "45.30"
+        },
+        {
+          "mes": 12,
+          "tipo_residuo": "Vidro",
+          "mes_tipo": "12 / Vidro",
+          "toneladas": "6.382",
+          "variacao_mensal_pct": "38.87"
+        },
+        {
+          "mes": 12,
+          "tipo_residuo": "Volumoso e entulho",
+          "mes_tipo": "12 / Volumoso e entulho",
+          "toneladas": "0.000",
+          "variacao_mensal_pct": null
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "titulo": "Participação de recicláveis por bairro e região",
+      "leitura": "A secretaria identifica onde investigar expansão da seletiva; o percentual mede material reciclável coletado antes da triagem, não reciclagem efetiva.",
+      "eixo": "local",
+      "medida": "reciclaveis_pct",
+      "sql": "SELECT CASE WHEN GROUPING(l.bairro) = 1 THEN 'Região ' || l.regiao ELSE l.bairro END AS local,\n       l.regiao, CASE WHEN GROUPING(l.bairro) = 1 THEN 'REGIAO' ELSE 'BAIRRO' END AS nivel,\n       ROUND(SUM(f.peso_kg) / 1000, 3) AS toneladas,\n       ROUND(SUM(CASE WHEN tr.reciclavel THEN f.peso_kg ELSE 0 END) / 1000, 3) AS reciclaveis_t,\n       ROUND(100.0 * SUM(CASE WHEN tr.reciclavel THEN f.peso_kg ELSE 0 END)\n         / NULLIF(SUM(f.peso_kg), 0), 2) AS reciclaveis_pct\nFROM dw.fato_coleta f\nJOIN dw.dim_local l ON l.sk_local = f.sk_local\nJOIN dw.dim_tipo_residuo tr ON tr.sk_tipo_residuo = f.sk_tipo_residuo\nJOIN dw.dim_tempo t ON t.sk_tempo = f.sk_tempo\nWHERE t.ano = 2025\nGROUP BY GROUPING SETS ((l.regiao, l.bairro), (l.regiao))\nORDER BY nivel, reciclaveis_pct, local;",
+      "arquivo": "07_dashboard_estrategico.sql",
+      "rows": [
+        {
+          "local": "Novo Horizonte",
+          "regiao": "LESTE",
+          "nivel": "BAIRRO",
+          "toneladas": "61.329",
+          "reciclaveis_t": "4.318",
+          "reciclaveis_pct": "7.04"
+        },
+        {
+          "local": "Vila Esperança",
+          "regiao": "NORTE",
+          "nivel": "BAIRRO",
+          "toneladas": "69.711",
+          "reciclaveis_t": "9.105",
+          "reciclaveis_pct": "13.06"
+        },
+        {
+          "local": "Alvorada",
+          "regiao": "OESTE",
+          "nivel": "BAIRRO",
+          "toneladas": "60.077",
+          "reciclaveis_t": "9.904",
+          "reciclaveis_pct": "16.49"
+        },
+        {
+          "local": "Santa Luzia",
+          "regiao": "SUL",
+          "nivel": "BAIRRO",
+          "toneladas": "59.782",
+          "reciclaveis_t": "11.891",
+          "reciclaveis_pct": "19.89"
+        },
+        {
+          "local": "Cidade Nova",
+          "regiao": "LESTE",
+          "nivel": "BAIRRO",
+          "toneladas": "68.005",
+          "reciclaveis_t": "14.098",
+          "reciclaveis_pct": "20.73"
+        },
+        {
+          "local": "Industrial",
+          "regiao": "SUL",
+          "nivel": "BAIRRO",
+          "toneladas": "43.745",
+          "reciclaveis_t": "9.345",
+          "reciclaveis_pct": "21.36"
+        },
+        {
+          "local": "Bela Vista",
+          "regiao": "LESTE",
+          "nivel": "BAIRRO",
+          "toneladas": "96.569",
+          "reciclaveis_t": "23.985",
+          "reciclaveis_pct": "24.84"
+        },
+        {
+          "local": "São José",
+          "regiao": "OESTE",
+          "nivel": "BAIRRO",
+          "toneladas": "77.827",
+          "reciclaveis_t": "21.269",
+          "reciclaveis_pct": "27.33"
+        },
+        {
+          "local": "Jardim Aurora",
+          "regiao": "NORTE",
+          "nivel": "BAIRRO",
+          "toneladas": "86.944",
+          "reciclaveis_t": "26.785",
+          "reciclaveis_pct": "30.81"
+        },
+        {
+          "local": "Centro",
+          "regiao": "CENTRO",
+          "nivel": "BAIRRO",
+          "toneladas": "106.136",
+          "reciclaveis_t": "35.025",
+          "reciclaveis_pct": "33.00"
+        },
+        {
+          "local": "Morada do Sol",
+          "regiao": "NORTE",
+          "nivel": "BAIRRO",
+          "toneladas": "93.924",
+          "reciclaveis_t": "32.869",
+          "reciclaveis_pct": "35.00"
+        },
+        {
+          "local": "Parque das Águas",
+          "regiao": "SUL",
+          "nivel": "BAIRRO",
+          "toneladas": "96.273",
+          "reciclaveis_t": "34.984",
+          "reciclaveis_pct": "36.34"
+        },
+        {
+          "local": "Região LESTE",
+          "regiao": "LESTE",
+          "nivel": "REGIAO",
+          "toneladas": "225.903",
+          "reciclaveis_t": "42.400",
+          "reciclaveis_pct": "18.77"
+        },
+        {
+          "local": "Região OESTE",
+          "regiao": "OESTE",
+          "nivel": "REGIAO",
+          "toneladas": "137.903",
+          "reciclaveis_t": "31.173",
+          "reciclaveis_pct": "22.60"
+        },
+        {
+          "local": "Região NORTE",
+          "regiao": "NORTE",
+          "nivel": "REGIAO",
+          "toneladas": "250.579",
+          "reciclaveis_t": "68.759",
+          "reciclaveis_pct": "27.44"
+        },
+        {
+          "local": "Região SUL",
+          "regiao": "SUL",
+          "nivel": "REGIAO",
+          "toneladas": "199.800",
+          "reciclaveis_t": "56.220",
+          "reciclaveis_pct": "28.14"
+        },
+        {
+          "local": "Região CENTRO",
+          "regiao": "CENTRO",
+          "nivel": "REGIAO",
+          "toneladas": "106.136",
+          "reciclaveis_t": "35.025",
+          "reciclaveis_pct": "33.00"
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "titulo": "Rejeito da triagem por material reciclável",
+      "leitura": "A secretaria e a cooperativa comparam recicláveis destinados ao aterro com o total destinado do mesmo material nas coletas de 2025, incluindo descargas posteriores ao ano.",
+      "eixo": "material",
+      "medida": "rejeito_pct",
+      "sql": "SELECT tr.nome AS material,\n       ROUND(SUM(f.peso_kg) / 1000, 3) AS total_destinado_t,\n       ROUND(SUM(CASE WHEN d.tipo = 'COOPERATIVA' THEN f.peso_kg ELSE 0 END) / 1000, 3) AS cooperativa_t,\n       ROUND(SUM(CASE WHEN d.tipo = 'ATERRO_SANITARIO' THEN f.peso_kg ELSE 0 END) / 1000, 3) AS rejeito_t,\n       ROUND(100.0 * SUM(CASE WHEN d.tipo = 'ATERRO_SANITARIO' THEN f.peso_kg ELSE 0 END)\n         / NULLIF(SUM(f.peso_kg), 0), 2) AS rejeito_pct\nFROM dw.fato_destinacao f\nJOIN dw.dim_tipo_residuo tr ON tr.sk_tipo_residuo = f.sk_tipo_residuo\nJOIN dw.dim_destino d ON d.sk_destino = f.sk_destino\nJOIN dw.fato_viagem v ON v.id_coleta = f.id_coleta\nJOIN dw.dim_tempo t ON t.sk_tempo = v.sk_tempo\nWHERE t.ano = 2025 AND tr.reciclavel\nGROUP BY tr.sk_tipo_residuo, tr.nome\nORDER BY rejeito_pct DESC, material;",
+      "arquivo": "07_dashboard_estrategico.sql",
+      "rows": [
+        {
+          "material": "Plástico",
+          "total_destinado_t": "57.717",
+          "cooperativa_t": "37.516",
+          "rejeito_t": "20.201",
+          "rejeito_pct": "35.00"
+        },
+        {
+          "material": "Papel e papelão",
+          "total_destinado_t": "59.605",
+          "cooperativa_t": "52.453",
+          "rejeito_t": "7.153",
+          "rejeito_pct": "12.00"
+        },
+        {
+          "material": "Vidro",
+          "total_destinado_t": "58.526",
+          "cooperativa_t": "53.844",
+          "rejeito_t": "4.682",
+          "rejeito_pct": "8.00"
+        },
+        {
+          "material": "Metal",
+          "total_destinado_t": "57.730",
+          "cooperativa_t": "54.843",
+          "rejeito_t": "2.887",
+          "rejeito_pct": "5.00"
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "titulo": "Destinos e uso da capacidade mensal",
+      "leitura": "A secretaria acompanha participação no peso destinado no mês e uso da capacidade; meses sem descarga ficam com zero e capacidades não são somadas por material.",
+      "eixo": "mes_destino",
+      "medida": "capacidade_utilizada_pct",
+      "sql": "WITH mensal AS (\n  SELECT t.mes, f.sk_destino, SUM(f.peso_kg) / 1000 AS toneladas\n  FROM dw.fato_destinacao f\n  JOIN dw.dim_tempo t ON t.sk_tempo = f.sk_tempo\n  WHERE t.ano = 2025 GROUP BY t.mes, f.sk_destino\n), grade AS (\n  SELECT m.mes, d.nome AS destino, d.tipo, d.capacidade_ton_mes,\n         COALESCE(p.toneladas, 0) AS toneladas\n  FROM generate_series(1, 12) m(mes) CROSS JOIN dw.dim_destino d\n  LEFT JOIN mensal p ON p.mes = m.mes AND p.sk_destino = d.sk_destino\n)\nSELECT mes, destino, LPAD(mes::text, 2, '0') || ' / ' || destino AS mes_destino,\n       tipo, capacidade_ton_mes, ROUND(toneladas, 3) AS toneladas,\n       ROUND(100.0 * toneladas / NULLIF(SUM(toneladas) OVER (PARTITION BY mes), 0), 2) AS participacao_pct,\n       ROUND(100.0 * toneladas / NULLIF(capacidade_ton_mes, 0), 2) AS capacidade_utilizada_pct\nFROM grade ORDER BY mes, destino;",
+      "arquivo": "07_dashboard_estrategico.sql",
+      "rows": [
+        {
+          "mes": 1,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "01 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "31.485",
+          "participacao_pct": "39.77",
+          "capacidade_utilizada_pct": "0.52"
+        },
+        {
+          "mes": 1,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "01 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 1,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "01 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "16.700",
+          "participacao_pct": "21.10",
+          "capacidade_utilizada_pct": "1.39"
+        },
+        {
+          "mes": 1,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "01 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "30.979",
+          "participacao_pct": "39.13",
+          "capacidade_utilizada_pct": "3.44"
+        },
+        {
+          "mes": 2,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "02 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "21.170",
+          "participacao_pct": "40.07",
+          "capacidade_utilizada_pct": "0.35"
+        },
+        {
+          "mes": 2,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "02 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 2,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "02 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "12.657",
+          "participacao_pct": "23.96",
+          "capacidade_utilizada_pct": "1.05"
+        },
+        {
+          "mes": 2,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "02 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "19.007",
+          "participacao_pct": "35.97",
+          "capacidade_utilizada_pct": "2.11"
+        },
+        {
+          "mes": 3,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "03 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "30.120",
+          "participacao_pct": "39.89",
+          "capacidade_utilizada_pct": "0.50"
+        },
+        {
+          "mes": 3,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "03 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 3,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "03 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "15.481",
+          "participacao_pct": "20.50",
+          "capacidade_utilizada_pct": "1.29"
+        },
+        {
+          "mes": 3,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "03 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "29.906",
+          "participacao_pct": "39.61",
+          "capacidade_utilizada_pct": "3.32"
+        },
+        {
+          "mes": 4,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "04 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "27.975",
+          "participacao_pct": "39.39",
+          "capacidade_utilizada_pct": "0.47"
+        },
+        {
+          "mes": 4,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "04 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 4,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "04 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "16.108",
+          "participacao_pct": "22.68",
+          "capacidade_utilizada_pct": "1.34"
+        },
+        {
+          "mes": 4,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "04 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "26.931",
+          "participacao_pct": "37.92",
+          "capacidade_utilizada_pct": "2.99"
+        },
+        {
+          "mes": 5,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "05 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "28.420",
+          "participacao_pct": "39.09",
+          "capacidade_utilizada_pct": "0.47"
+        },
+        {
+          "mes": 5,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "05 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 5,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "05 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "16.628",
+          "participacao_pct": "22.87",
+          "capacidade_utilizada_pct": "1.39"
+        },
+        {
+          "mes": 5,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "05 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "27.659",
+          "participacao_pct": "38.04",
+          "capacidade_utilizada_pct": "3.07"
+        },
+        {
+          "mes": 6,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "06 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "28.517",
+          "participacao_pct": "39.65",
+          "capacidade_utilizada_pct": "0.48"
+        },
+        {
+          "mes": 6,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "06 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 6,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "06 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "14.309",
+          "participacao_pct": "19.89",
+          "capacidade_utilizada_pct": "1.19"
+        },
+        {
+          "mes": 6,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "06 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "29.098",
+          "participacao_pct": "40.46",
+          "capacidade_utilizada_pct": "3.23"
+        },
+        {
+          "mes": 7,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "07 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "30.683",
+          "participacao_pct": "38.50",
+          "capacidade_utilizada_pct": "0.51"
+        },
+        {
+          "mes": 7,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "07 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 7,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "07 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "19.710",
+          "participacao_pct": "24.73",
+          "capacidade_utilizada_pct": "1.64"
+        },
+        {
+          "mes": 7,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "07 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "29.301",
+          "participacao_pct": "36.77",
+          "capacidade_utilizada_pct": "3.26"
+        },
+        {
+          "mes": 8,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "08 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "32.305",
+          "participacao_pct": "43.77",
+          "capacidade_utilizada_pct": "0.54"
+        },
+        {
+          "mes": 8,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "08 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 8,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "08 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "14.592",
+          "participacao_pct": "19.77",
+          "capacidade_utilizada_pct": "1.22"
+        },
+        {
+          "mes": 8,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "08 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "26.916",
+          "participacao_pct": "36.46",
+          "capacidade_utilizada_pct": "2.99"
+        },
+        {
+          "mes": 9,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "09 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "29.844",
+          "participacao_pct": "38.38",
+          "capacidade_utilizada_pct": "0.50"
+        },
+        {
+          "mes": 9,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "09 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 9,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "09 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "16.850",
+          "participacao_pct": "21.67",
+          "capacidade_utilizada_pct": "1.40"
+        },
+        {
+          "mes": 9,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "09 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "31.063",
+          "participacao_pct": "39.95",
+          "capacidade_utilizada_pct": "3.45"
+        },
+        {
+          "mes": 10,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "10 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "35.060",
+          "participacao_pct": "41.04",
+          "capacidade_utilizada_pct": "0.58"
+        },
+        {
+          "mes": 10,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "10 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 10,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "10 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "17.679",
+          "participacao_pct": "20.70",
+          "capacidade_utilizada_pct": "1.47"
+        },
+        {
+          "mes": 10,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "10 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "32.686",
+          "participacao_pct": "38.26",
+          "capacidade_utilizada_pct": "3.63"
+        },
+        {
+          "mes": 11,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "11 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "29.464",
+          "participacao_pct": "40.18",
+          "capacidade_utilizada_pct": "0.49"
+        },
+        {
+          "mes": 11,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "11 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 11,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "11 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "15.987",
+          "participacao_pct": "21.80",
+          "capacidade_utilizada_pct": "1.33"
+        },
+        {
+          "mes": 11,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "11 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "27.878",
+          "participacao_pct": "38.02",
+          "capacidade_utilizada_pct": "3.10"
+        },
+        {
+          "mes": 12,
+          "destino": "Aterro Sanitário Municipal",
+          "mes_destino": "12 / Aterro Sanitário Municipal",
+          "tipo": "ATERRO_SANITARIO",
+          "capacidade_ton_mes": "6000.00",
+          "toneladas": "41.691",
+          "participacao_pct": "39.04",
+          "capacidade_utilizada_pct": "0.69"
+        },
+        {
+          "mes": 12,
+          "destino": "Central de Resíduos Especiais",
+          "mes_destino": "12 / Central de Resíduos Especiais",
+          "tipo": "CENTRAL_PERIGOSOS",
+          "capacidade_ton_mes": "80.00",
+          "toneladas": "0.000",
+          "participacao_pct": "0.00",
+          "capacidade_utilizada_pct": "0.00"
+        },
+        {
+          "mes": 12,
+          "destino": "Cooperativa Recicla Mais",
+          "mes_destino": "12 / Cooperativa Recicla Mais",
+          "tipo": "COOPERATIVA",
+          "capacidade_ton_mes": "1200.00",
+          "toneladas": "21.954",
+          "participacao_pct": "20.56",
+          "capacidade_utilizada_pct": "1.83"
+        },
+        {
+          "mes": 12,
+          "destino": "Usina de Compostagem Terra Viva",
+          "mes_destino": "12 / Usina de Compostagem Terra Viva",
+          "tipo": "USINA_COMPOSTAGEM",
+          "capacidade_ton_mes": "900.00",
+          "toneladas": "43.141",
+          "participacao_pct": "40.40",
+          "capacidade_utilizada_pct": "4.79"
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "titulo": "Ocorrências por trimestre e região",
+      "leitura": "A secretaria acompanha registros abertos por trimestre, incluindo zeros; queda de registros não comprova melhora sem avaliar os canais de atendimento.",
+      "eixo": "trimestre_regiao",
+      "medida": "ocorrencias",
+      "sql": "WITH trimestral AS (\n  SELECT t.trimestre, l.regiao, SUM(f.qtd_ocorrencias) AS ocorrencias\n  FROM dw.fato_ocorrencia f\n  JOIN dw.dim_local l ON l.sk_local = f.sk_local\n  JOIN dw.dim_tempo t ON t.sk_tempo = f.sk_tempo_abertura\n  WHERE t.ano = 2025 GROUP BY t.trimestre, l.regiao\n), grade AS (\n  SELECT q.trimestre, r.regiao, COALESCE(p.ocorrencias, 0) AS ocorrencias\n  FROM generate_series(1, 4) q(trimestre)\n  CROSS JOIN (SELECT DISTINCT regiao FROM dw.dim_local) r\n  LEFT JOIN trimestral p ON p.trimestre = q.trimestre AND p.regiao = r.regiao\n), evolucao AS (\n  SELECT *, LAG(ocorrencias) OVER (PARTITION BY regiao ORDER BY trimestre) AS anterior\n  FROM grade\n)\nSELECT trimestre, regiao, trimestre::text || 'º tri / ' || regiao AS trimestre_regiao,\n       ocorrencias,\n       ROUND(100.0 * (ocorrencias - anterior) / NULLIF(anterior, 0), 2) AS variacao_trimestral_pct\nFROM evolucao ORDER BY trimestre, regiao;",
+      "arquivo": "07_dashboard_estrategico.sql",
+      "rows": [
+        {
+          "trimestre": 1,
+          "regiao": "CENTRO",
+          "trimestre_regiao": "1º tri / CENTRO",
+          "ocorrencias": 7,
+          "variacao_trimestral_pct": null
+        },
+        {
+          "trimestre": 1,
+          "regiao": "LESTE",
+          "trimestre_regiao": "1º tri / LESTE",
+          "ocorrencias": 40,
+          "variacao_trimestral_pct": null
+        },
+        {
+          "trimestre": 1,
+          "regiao": "NORTE",
+          "trimestre_regiao": "1º tri / NORTE",
+          "ocorrencias": 53,
+          "variacao_trimestral_pct": null
+        },
+        {
+          "trimestre": 1,
+          "regiao": "OESTE",
+          "trimestre_regiao": "1º tri / OESTE",
+          "ocorrencias": 22,
+          "variacao_trimestral_pct": null
+        },
+        {
+          "trimestre": 1,
+          "regiao": "SUL",
+          "trimestre_regiao": "1º tri / SUL",
+          "ocorrencias": 35,
+          "variacao_trimestral_pct": null
+        },
+        {
+          "trimestre": 2,
+          "regiao": "CENTRO",
+          "trimestre_regiao": "2º tri / CENTRO",
+          "ocorrencias": 8,
+          "variacao_trimestral_pct": "14.29"
+        },
+        {
+          "trimestre": 2,
+          "regiao": "LESTE",
+          "trimestre_regiao": "2º tri / LESTE",
+          "ocorrencias": 40,
+          "variacao_trimestral_pct": "0.00"
+        },
+        {
+          "trimestre": 2,
+          "regiao": "NORTE",
+          "trimestre_regiao": "2º tri / NORTE",
+          "ocorrencias": 30,
+          "variacao_trimestral_pct": "-43.40"
+        },
+        {
+          "trimestre": 2,
+          "regiao": "OESTE",
+          "trimestre_regiao": "2º tri / OESTE",
+          "ocorrencias": 22,
+          "variacao_trimestral_pct": "0.00"
+        },
+        {
+          "trimestre": 2,
+          "regiao": "SUL",
+          "trimestre_regiao": "2º tri / SUL",
+          "ocorrencias": 24,
+          "variacao_trimestral_pct": "-31.43"
+        },
+        {
+          "trimestre": 3,
+          "regiao": "CENTRO",
+          "trimestre_regiao": "3º tri / CENTRO",
+          "ocorrencias": 12,
+          "variacao_trimestral_pct": "50.00"
+        },
+        {
+          "trimestre": 3,
+          "regiao": "LESTE",
+          "trimestre_regiao": "3º tri / LESTE",
+          "ocorrencias": 34,
+          "variacao_trimestral_pct": "-15.00"
+        },
+        {
+          "trimestre": 3,
+          "regiao": "NORTE",
+          "trimestre_regiao": "3º tri / NORTE",
+          "ocorrencias": 44,
+          "variacao_trimestral_pct": "46.67"
+        },
+        {
+          "trimestre": 3,
+          "regiao": "OESTE",
+          "trimestre_regiao": "3º tri / OESTE",
+          "ocorrencias": 14,
+          "variacao_trimestral_pct": "-36.36"
+        },
+        {
+          "trimestre": 3,
+          "regiao": "SUL",
+          "trimestre_regiao": "3º tri / SUL",
+          "ocorrencias": 27,
+          "variacao_trimestral_pct": "12.50"
+        },
+        {
+          "trimestre": 4,
+          "regiao": "CENTRO",
+          "trimestre_regiao": "4º tri / CENTRO",
+          "ocorrencias": 12,
+          "variacao_trimestral_pct": "0.00"
+        },
+        {
+          "trimestre": 4,
+          "regiao": "LESTE",
+          "trimestre_regiao": "4º tri / LESTE",
+          "ocorrencias": 53,
+          "variacao_trimestral_pct": "55.88"
+        },
+        {
+          "trimestre": 4,
+          "regiao": "NORTE",
+          "trimestre_regiao": "4º tri / NORTE",
+          "ocorrencias": 63,
+          "variacao_trimestral_pct": "43.18"
+        },
+        {
+          "trimestre": 4,
+          "regiao": "OESTE",
+          "trimestre_regiao": "4º tri / OESTE",
+          "ocorrencias": 22,
+          "variacao_trimestral_pct": "57.14"
+        },
+        {
+          "trimestre": 4,
+          "regiao": "SUL",
+          "trimestre_regiao": "4º tri / SUL",
+          "ocorrencias": 38,
+          "variacao_trimestral_pct": "40.74"
+        }
+      ]
+    }
+  ]
+}

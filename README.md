@@ -1,5 +1,7 @@
 # Ciclo Urbano — Laboratório de Dados para Cidades Sustentáveis
 
+**Entrega final (06/11):** abra o [painel React offline](docs/entregas/final/painel.html), com visão geral, dashboards operacional, tático e estratégico, mineração e 5W2H. Consulte o [relatório final](docs/entregas/final/relatorio_final.md), as [15 consultas](docs/entregas/final/consultas_dashboards.md), o [roteiro de apresentação](docs/entregas/final/roteiro_apresentacao.md) e as [instruções para desenvolver em React e reproduzir os dados](src/dashboards/README.md). Os documentos de 19/10 preservam o histórico da entrega parcial.
+
 Projeto da disciplina **Tópicos Especiais em Banco de Dados** (ODS 11): gestão de resíduos sólidos urbanos e coleta seletiva, com ambientes **OLTP** (12 tabelas, 3FN) e **OLAP** (Data Warehouse com 4 estrelas) em PostgreSQL.
 
 ## Estrutura

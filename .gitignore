@@ -12,6 +12,9 @@ env/
 *.egg-info/
 .pytest_cache/
 .ipynb_checkpoints/
+node_modules/
+tmp/
+output/
 
 # ---- Arquivos temporários e logs --------------------------------------------------------------
 *.log
